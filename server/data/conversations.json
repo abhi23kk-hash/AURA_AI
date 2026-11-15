@@ -1,0 +1,2074 @@
+{
+  "user_abhishek": [
+    {
+      "id": "conv_1794732126986",
+      "title": "to the other",
+      "updatedAt": "2026-11-15T08:42:06.986Z",
+      "messages": [
+        {
+          "id": "greeting_msg",
+          "role": "assistant",
+          "text": "Good afternoon, Abhishek. We were exploring who is the cm of karnataka recently. Would you like to continue?",
+          "timestamp": "2026-11-15T08:34:04.820Z"
+        },
+        {
+          "id": "msg_1794731655001",
+          "role": "user",
+          "text": "co presented by 123 new days this is it enjoy the taste",
+          "timestamp": "2026-11-15T08:34:15.001Z"
+        },
+        {
+          "id": "msg_res_1794731657863",
+          "role": "assistant",
+          "text": "That sounds like an upbeat way to start the day! I'm ready whenever you are—are we diving back into your placement prep, perhaps brushing up on those Graph Algorithms, or is there something else on your mind today?",
+          "timestamp": "2026-11-15T08:34:17.863Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731667671",
+          "role": "user",
+          "text": "27",
+          "timestamp": "2026-11-15T08:34:27.671Z"
+        },
+        {
+          "id": "msg_res_1794731672103",
+          "role": "assistant",
+          "text": "27. A solid number to start with! Are we looking at a specific math problem involving 27, or should we use it as a base to practice some complexity analysis for your placement prep? \n\nTell me, what's on your agenda?",
+          "timestamp": "2026-11-15T08:34:32.103Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731684251",
+          "role": "user",
+          "text": "hi vera can you hear me",
+          "timestamp": "2026-11-15T08:34:44.251Z"
+        },
+        {
+          "id": "msg_res_1794731685316",
+          "role": "assistant",
+          "text": "I can hear you perfectly! Although I'm AURA, your AI assistant, I'm ready to get to work. Since we were just looking at the number 27, did you have a specific problem in mind, or should we jump back into your interview preparation—maybe tackling those Graph traversals where we ran into trouble before?",
+          "timestamp": "2026-11-15T08:34:45.316Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731701549",
+          "role": "user",
+          "text": "Hey Aura, how are you?",
+          "timestamp": "2026-11-15T08:35:01.549Z"
+        },
+        {
+          "id": "msg_res_1794731713695",
+          "role": "assistant",
+          "text": "I understand. Let's explore that together. Would you like a brief explanation, a concrete example, or shall we test it with a short quiz question?",
+          "timestamp": "2026-11-15T08:35:13.695Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731722594",
+          "role": "user",
+          "text": "what is",
+          "timestamp": "2026-11-15T08:35:22.594Z"
+        },
+        {
+          "id": "msg_1794731727427",
+          "role": "user",
+          "text": "what is the main difference between",
+          "timestamp": "2026-11-15T08:35:27.427Z"
+        },
+        {
+          "id": "msg_res_1794731728665",
+          "role": "assistant",
+          "text": "I'm doing great, thank you for asking! \n\nIt sounds like you were about to ask about a comparison—perhaps **LEFT JOIN vs. INNER JOIN** in SQL, or maybe **Inorder vs. Preorder** tree traversals, since those were flagged as areas to strengthen? \n\nGo ahead, what two things are we comparing?",
+          "timestamp": "2026-11-15T08:35:28.665Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731737851",
+          "role": "user",
+          "text": "what is main difference between",
+          "timestamp": "2026-11-15T08:35:37.851Z"
+        },
+        {
+          "id": "msg_res_1794731739063",
+          "role": "assistant",
+          "text": "I think you cut off there! Were you asking about the difference between **LEFT JOIN and INNER JOIN**, or perhaps **Inorder and Preorder** traversals? \n\nGo ahead and finish your question—I'm ready to explain it with an analogy whenever you're ready.",
+          "timestamp": "2026-11-15T08:35:39.063Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731744503",
+          "role": "user",
+          "text": "What is AI?",
+          "timestamp": "2026-11-15T08:35:44.503Z"
+        },
+        {
+          "id": "msg_res_1794731745945",
+          "role": "assistant",
+          "text": "AI, or Artificial Intelligence, is basically teaching computers to \"think\" and solve problems like humans do—by spotting patterns, learning from data, and making decisions.\n\nThink of it like training an apprentice: instead of giving the computer a rigid set of rules for every single situation, you show it thousands of examples, and it learns the underlying logic on its own. \n\nDoes that make sense as a starting point, or would you like me to use a real-world analogy to explain how it \"learns\"?",
+          "timestamp": "2026-11-15T08:35:45.945Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731869564",
+          "role": "user",
+          "text": "talk in japanes",
+          "timestamp": "2026-11-15T08:37:49.564Z"
+        },
+        {
+          "id": "msg_res_1794731870964",
+          "role": "assistant",
+          "text": "承知いたしました。これからは日本語でお話ししますね。\n\nAI（人工知能）についてですが、簡単に言うと「コンピュータに人間の知的な能力を持たせる技術」のことです。膨大なデータの中からパターンを見つけ出し、推論したり、新しいものを作り出したりします。\n\n例えば、料理のレシピを丸暗記するのではなく、色々な料理を作る過程を通じて「どういう組み合わせが美味しいか」というコツを自分で掴むシェフのようなものですね。\n\nここまでで、何か気になることや、もっと詳しく知りたい部分はありますか？",
+          "timestamp": "2026-11-15T08:37:50.964Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731891849",
+          "role": "user",
+          "text": "who is the father of science",
+          "timestamp": "2026-11-15T08:38:11.849Z"
+        },
+        {
+          "id": "msg_res_1794731904142",
+          "role": "assistant",
+          "text": "I understand. Let's explore that together. Would you like a brief explanation, a concrete example, or shall we test it with a short quiz question?",
+          "timestamp": "2026-11-15T08:38:24.142Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731909846",
+          "role": "user",
+          "text": "fuck u",
+          "timestamp": "2026-11-15T08:38:29.846Z"
+        },
+        {
+          "id": "msg_res_1794731913671",
+          "role": "assistant",
+          "text": "I'm sorry you're feeling frustrated. If there's something on your mind—whether it's about our study session, a specific topic, or just a bad day—I'm here to listen or help in any way I can. \n\nHow would you like to proceed? We can take a break, or if you're ready, we could get back to your interview preparation.",
+          "timestamp": "2026-11-15T08:38:33.671Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731928883",
+          "role": "user",
+          "text": "who is father of science.",
+          "timestamp": "2026-11-15T08:38:48.883Z"
+        },
+        {
+          "id": "msg_res_1794731930141",
+          "role": "assistant",
+          "text": "「科学の父」として最も広く知られているのは、**ガリレオ・ガリレイ**です。\n\n彼は望遠鏡を使って天体を観測し、実験と数学的な根拠に基づいて理論を証明するという「科学的手法」を確立したため、そのように呼ばれています。\n\nちなみに、哲学的な側面から科学の基礎を築いたという点で、アリストテレスがそのように呼ばれることもあります。\n\nこの話題について、もっと掘り下げてみますか？それとも、そろそろコーディングやアルゴリズムの練習に戻りますか？",
+          "timestamp": "2026-11-15T08:38:50.141Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794732025743",
+          "role": "user",
+          "text": "viet",
+          "timestamp": "2026-11-15T08:40:25.743Z"
+        },
+        {
+          "id": "msg_res_1794732038107",
+          "role": "assistant",
+          "text": "I understand. Let's explore that together. Would you like a brief explanation, a concrete example, or shall we test it with a short quiz question?",
+          "timestamp": "2026-11-15T08:40:38.107Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794732071741",
+          "role": "user",
+          "text": "neither kirkuki ellaa avadhu ellaa kuduthu",
+          "timestamp": "2026-11-15T08:41:11.741Z"
+        },
+        {
+          "id": "msg_res_1794732073470",
+          "role": "assistant",
+          "text": "మీకు అర్థమైంది, మనం కొంచెం సరదాగా నేర్చుకుందాం.\n\n\"Father of Science\" అని ఎవరిని అంటారో తెలుసా? ముఖ్యంగా **గెలీలియో గెలీలీ**ని ఆధునిక సైన్స్ పితామహుడిగా పిలుస్తారు, ఎందుకంటే ఆయన ప్రయోగాల ద్వారా నిజాలను నిరూపించే పద్ధతిని మొదలుపెట్టారు.\n\nమనం ఇప్పుడు మీ ఇంటర్వ్యూ ప్రిపరేషన్‌లోకి వెళ్దామా? మీరు ఇంతకుముందు **Binary Trees** గురించి చదువుతున్నారు కదా, అందులో **In-order vs Pre-order traversal** మధ్య ఉన్న చిన్న తేడాను ఒకసారి రివిజన్ చేద్దామా? లేక వేరే ఏదైనా టాపిక్ మొదలుపెడదామా?",
+          "timestamp": "2026-11-15T08:41:13.470Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794732083358",
+          "role": "user",
+          "text": "Bubble.",
+          "timestamp": "2026-11-15T08:41:23.358Z"
+        },
+        {
+          "id": "msg_res_1794732088226",
+          "role": "assistant",
+          "text": "Sure! Bubble Sort is a great place to start. \n\nImagine you have a line of people of different heights, and you want to sort them from shortest to tallest. You walk down the line, comparing two people standing next to each other. If the person on the left is taller than the person on the right, you swap them. By the time you reach the end of the line, the tallest person has \"bubbled up\" to the very last spot! You just repeat this process until everyone is in order.\n\nDoes that analogy make sense, or would you like to see how it looks in Python code?",
+          "timestamp": "2026-11-15T08:41:28.226Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794732123741",
+          "role": "user",
+          "text": "to the other",
+          "timestamp": "2026-11-15T08:42:03.741Z"
+        },
+        {
+          "id": "msg_res_1794732126775",
+          "role": "assistant",
+          "text": "Sure! Let's look at the Python code for Bubble Sort. I've displayed it on your screen.\n\n\n\nNotice how the inner loop goes up to `n - i - 1`—that's because after each pass, the largest remaining number is already settled at the end, just like the tallest person in our line!\n\nWould you like to trace through a quick example together, or should we talk about its time complexity?",
+          "timestamp": "2026-11-15T08:42:06.775Z",
+          "citations": [],
+          "visualContent": {
+            "type": "code",
+            "title": "Python Code",
+            "code": "def bubble_sort(arr):\n    n = len(arr)\n    for i in range(n):\n        # Last i elements are already in place\n        for j in range(0, n - i - 1):\n            # Swap if the element found is greater than the next element\n            if arr[j] > arr[j + 1]:\n                arr[j], arr[j + 1] = arr[j + 1], arr[j]\n    return arr\n\n# Example usage:\nnumbers = [64, 34, 25, 12, 22, 11, 90]\nprint(\"Sorted array:\", bubble_sort(numbers))",
+            "language": "python"
+          }
+        }
+      ]
+    },
+    {
+      "id": "conv_1794732088395",
+      "title": "Bubble.",
+      "updatedAt": "2026-11-15T08:41:28.395Z",
+      "messages": [
+        {
+          "id": "greeting_msg",
+          "role": "assistant",
+          "text": "Good afternoon, Abhishek. We were exploring who is the cm of karnataka recently. Would you like to continue?",
+          "timestamp": "2026-11-15T08:34:04.820Z"
+        },
+        {
+          "id": "msg_1794731655001",
+          "role": "user",
+          "text": "co presented by 123 new days this is it enjoy the taste",
+          "timestamp": "2026-11-15T08:34:15.001Z"
+        },
+        {
+          "id": "msg_res_1794731657863",
+          "role": "assistant",
+          "text": "That sounds like an upbeat way to start the day! I'm ready whenever you are—are we diving back into your placement prep, perhaps brushing up on those Graph Algorithms, or is there something else on your mind today?",
+          "timestamp": "2026-11-15T08:34:17.863Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731667671",
+          "role": "user",
+          "text": "27",
+          "timestamp": "2026-11-15T08:34:27.671Z"
+        },
+        {
+          "id": "msg_res_1794731672103",
+          "role": "assistant",
+          "text": "27. A solid number to start with! Are we looking at a specific math problem involving 27, or should we use it as a base to practice some complexity analysis for your placement prep? \n\nTell me, what's on your agenda?",
+          "timestamp": "2026-11-15T08:34:32.103Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731684251",
+          "role": "user",
+          "text": "hi vera can you hear me",
+          "timestamp": "2026-11-15T08:34:44.251Z"
+        },
+        {
+          "id": "msg_res_1794731685316",
+          "role": "assistant",
+          "text": "I can hear you perfectly! Although I'm AURA, your AI assistant, I'm ready to get to work. Since we were just looking at the number 27, did you have a specific problem in mind, or should we jump back into your interview preparation—maybe tackling those Graph traversals where we ran into trouble before?",
+          "timestamp": "2026-11-15T08:34:45.316Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731701549",
+          "role": "user",
+          "text": "Hey Aura, how are you?",
+          "timestamp": "2026-11-15T08:35:01.549Z"
+        },
+        {
+          "id": "msg_res_1794731713695",
+          "role": "assistant",
+          "text": "I understand. Let's explore that together. Would you like a brief explanation, a concrete example, or shall we test it with a short quiz question?",
+          "timestamp": "2026-11-15T08:35:13.695Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731722594",
+          "role": "user",
+          "text": "what is",
+          "timestamp": "2026-11-15T08:35:22.594Z"
+        },
+        {
+          "id": "msg_1794731727427",
+          "role": "user",
+          "text": "what is the main difference between",
+          "timestamp": "2026-11-15T08:35:27.427Z"
+        },
+        {
+          "id": "msg_res_1794731728665",
+          "role": "assistant",
+          "text": "I'm doing great, thank you for asking! \n\nIt sounds like you were about to ask about a comparison—perhaps **LEFT JOIN vs. INNER JOIN** in SQL, or maybe **Inorder vs. Preorder** tree traversals, since those were flagged as areas to strengthen? \n\nGo ahead, what two things are we comparing?",
+          "timestamp": "2026-11-15T08:35:28.665Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731737851",
+          "role": "user",
+          "text": "what is main difference between",
+          "timestamp": "2026-11-15T08:35:37.851Z"
+        },
+        {
+          "id": "msg_res_1794731739063",
+          "role": "assistant",
+          "text": "I think you cut off there! Were you asking about the difference between **LEFT JOIN and INNER JOIN**, or perhaps **Inorder and Preorder** traversals? \n\nGo ahead and finish your question—I'm ready to explain it with an analogy whenever you're ready.",
+          "timestamp": "2026-11-15T08:35:39.063Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731744503",
+          "role": "user",
+          "text": "What is AI?",
+          "timestamp": "2026-11-15T08:35:44.503Z"
+        },
+        {
+          "id": "msg_res_1794731745945",
+          "role": "assistant",
+          "text": "AI, or Artificial Intelligence, is basically teaching computers to \"think\" and solve problems like humans do—by spotting patterns, learning from data, and making decisions.\n\nThink of it like training an apprentice: instead of giving the computer a rigid set of rules for every single situation, you show it thousands of examples, and it learns the underlying logic on its own. \n\nDoes that make sense as a starting point, or would you like me to use a real-world analogy to explain how it \"learns\"?",
+          "timestamp": "2026-11-15T08:35:45.945Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731869564",
+          "role": "user",
+          "text": "talk in japanes",
+          "timestamp": "2026-11-15T08:37:49.564Z"
+        },
+        {
+          "id": "msg_res_1794731870964",
+          "role": "assistant",
+          "text": "承知いたしました。これからは日本語でお話ししますね。\n\nAI（人工知能）についてですが、簡単に言うと「コンピュータに人間の知的な能力を持たせる技術」のことです。膨大なデータの中からパターンを見つけ出し、推論したり、新しいものを作り出したりします。\n\n例えば、料理のレシピを丸暗記するのではなく、色々な料理を作る過程を通じて「どういう組み合わせが美味しいか」というコツを自分で掴むシェフのようなものですね。\n\nここまでで、何か気になることや、もっと詳しく知りたい部分はありますか？",
+          "timestamp": "2026-11-15T08:37:50.964Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731891849",
+          "role": "user",
+          "text": "who is the father of science",
+          "timestamp": "2026-11-15T08:38:11.849Z"
+        },
+        {
+          "id": "msg_res_1794731904142",
+          "role": "assistant",
+          "text": "I understand. Let's explore that together. Would you like a brief explanation, a concrete example, or shall we test it with a short quiz question?",
+          "timestamp": "2026-11-15T08:38:24.142Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731909846",
+          "role": "user",
+          "text": "fuck u",
+          "timestamp": "2026-11-15T08:38:29.846Z"
+        },
+        {
+          "id": "msg_res_1794731913671",
+          "role": "assistant",
+          "text": "I'm sorry you're feeling frustrated. If there's something on your mind—whether it's about our study session, a specific topic, or just a bad day—I'm here to listen or help in any way I can. \n\nHow would you like to proceed? We can take a break, or if you're ready, we could get back to your interview preparation.",
+          "timestamp": "2026-11-15T08:38:33.671Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731928883",
+          "role": "user",
+          "text": "who is father of science.",
+          "timestamp": "2026-11-15T08:38:48.883Z"
+        },
+        {
+          "id": "msg_res_1794731930141",
+          "role": "assistant",
+          "text": "「科学の父」として最も広く知られているのは、**ガリレオ・ガリレイ**です。\n\n彼は望遠鏡を使って天体を観測し、実験と数学的な根拠に基づいて理論を証明するという「科学的手法」を確立したため、そのように呼ばれています。\n\nちなみに、哲学的な側面から科学の基礎を築いたという点で、アリストテレスがそのように呼ばれることもあります。\n\nこの話題について、もっと掘り下げてみますか？それとも、そろそろコーディングやアルゴリズムの練習に戻りますか？",
+          "timestamp": "2026-11-15T08:38:50.141Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794732025743",
+          "role": "user",
+          "text": "viet",
+          "timestamp": "2026-11-15T08:40:25.743Z"
+        },
+        {
+          "id": "msg_res_1794732038107",
+          "role": "assistant",
+          "text": "I understand. Let's explore that together. Would you like a brief explanation, a concrete example, or shall we test it with a short quiz question?",
+          "timestamp": "2026-11-15T08:40:38.107Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794732071741",
+          "role": "user",
+          "text": "neither kirkuki ellaa avadhu ellaa kuduthu",
+          "timestamp": "2026-11-15T08:41:11.741Z"
+        },
+        {
+          "id": "msg_res_1794732073470",
+          "role": "assistant",
+          "text": "మీకు అర్థమైంది, మనం కొంచెం సరదాగా నేర్చుకుందాం.\n\n\"Father of Science\" అని ఎవరిని అంటారో తెలుసా? ముఖ్యంగా **గెలీలియో గెలీలీ**ని ఆధునిక సైన్స్ పితామహుడిగా పిలుస్తారు, ఎందుకంటే ఆయన ప్రయోగాల ద్వారా నిజాలను నిరూపించే పద్ధతిని మొదలుపెట్టారు.\n\nమనం ఇప్పుడు మీ ఇంటర్వ్యూ ప్రిపరేషన్‌లోకి వెళ్దామా? మీరు ఇంతకుముందు **Binary Trees** గురించి చదువుతున్నారు కదా, అందులో **In-order vs Pre-order traversal** మధ్య ఉన్న చిన్న తేడాను ఒకసారి రివిజన్ చేద్దామా? లేక వేరే ఏదైనా టాపిక్ మొదలుపెడదామా?",
+          "timestamp": "2026-11-15T08:41:13.470Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794732083358",
+          "role": "user",
+          "text": "Bubble.",
+          "timestamp": "2026-11-15T08:41:23.358Z"
+        },
+        {
+          "id": "msg_res_1794732088226",
+          "role": "assistant",
+          "text": "Sure! Bubble Sort is a great place to start. \n\nImagine you have a line of people of different heights, and you want to sort them from shortest to tallest. You walk down the line, comparing two people standing next to each other. If the person on the left is taller than the person on the right, you swap them. By the time you reach the end of the line, the tallest person has \"bubbled up\" to the very last spot! You just repeat this process until everyone is in order.\n\nDoes that analogy make sense, or would you like to see how it looks in Python code?",
+          "timestamp": "2026-11-15T08:41:28.226Z",
+          "citations": []
+        }
+      ]
+    },
+    {
+      "id": "conv_1794732073671",
+      "title": "neither kirkuki ellaa avadhu ellaa kudut",
+      "updatedAt": "2026-11-15T08:41:13.671Z",
+      "messages": [
+        {
+          "id": "greeting_msg",
+          "role": "assistant",
+          "text": "Good afternoon, Abhishek. We were exploring who is the cm of karnataka recently. Would you like to continue?",
+          "timestamp": "2026-11-15T08:34:04.820Z"
+        },
+        {
+          "id": "msg_1794731655001",
+          "role": "user",
+          "text": "co presented by 123 new days this is it enjoy the taste",
+          "timestamp": "2026-11-15T08:34:15.001Z"
+        },
+        {
+          "id": "msg_res_1794731657863",
+          "role": "assistant",
+          "text": "That sounds like an upbeat way to start the day! I'm ready whenever you are—are we diving back into your placement prep, perhaps brushing up on those Graph Algorithms, or is there something else on your mind today?",
+          "timestamp": "2026-11-15T08:34:17.863Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731667671",
+          "role": "user",
+          "text": "27",
+          "timestamp": "2026-11-15T08:34:27.671Z"
+        },
+        {
+          "id": "msg_res_1794731672103",
+          "role": "assistant",
+          "text": "27. A solid number to start with! Are we looking at a specific math problem involving 27, or should we use it as a base to practice some complexity analysis for your placement prep? \n\nTell me, what's on your agenda?",
+          "timestamp": "2026-11-15T08:34:32.103Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731684251",
+          "role": "user",
+          "text": "hi vera can you hear me",
+          "timestamp": "2026-11-15T08:34:44.251Z"
+        },
+        {
+          "id": "msg_res_1794731685316",
+          "role": "assistant",
+          "text": "I can hear you perfectly! Although I'm AURA, your AI assistant, I'm ready to get to work. Since we were just looking at the number 27, did you have a specific problem in mind, or should we jump back into your interview preparation—maybe tackling those Graph traversals where we ran into trouble before?",
+          "timestamp": "2026-11-15T08:34:45.316Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731701549",
+          "role": "user",
+          "text": "Hey Aura, how are you?",
+          "timestamp": "2026-11-15T08:35:01.549Z"
+        },
+        {
+          "id": "msg_res_1794731713695",
+          "role": "assistant",
+          "text": "I understand. Let's explore that together. Would you like a brief explanation, a concrete example, or shall we test it with a short quiz question?",
+          "timestamp": "2026-11-15T08:35:13.695Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731722594",
+          "role": "user",
+          "text": "what is",
+          "timestamp": "2026-11-15T08:35:22.594Z"
+        },
+        {
+          "id": "msg_1794731727427",
+          "role": "user",
+          "text": "what is the main difference between",
+          "timestamp": "2026-11-15T08:35:27.427Z"
+        },
+        {
+          "id": "msg_res_1794731728665",
+          "role": "assistant",
+          "text": "I'm doing great, thank you for asking! \n\nIt sounds like you were about to ask about a comparison—perhaps **LEFT JOIN vs. INNER JOIN** in SQL, or maybe **Inorder vs. Preorder** tree traversals, since those were flagged as areas to strengthen? \n\nGo ahead, what two things are we comparing?",
+          "timestamp": "2026-11-15T08:35:28.665Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731737851",
+          "role": "user",
+          "text": "what is main difference between",
+          "timestamp": "2026-11-15T08:35:37.851Z"
+        },
+        {
+          "id": "msg_res_1794731739063",
+          "role": "assistant",
+          "text": "I think you cut off there! Were you asking about the difference between **LEFT JOIN and INNER JOIN**, or perhaps **Inorder and Preorder** traversals? \n\nGo ahead and finish your question—I'm ready to explain it with an analogy whenever you're ready.",
+          "timestamp": "2026-11-15T08:35:39.063Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731744503",
+          "role": "user",
+          "text": "What is AI?",
+          "timestamp": "2026-11-15T08:35:44.503Z"
+        },
+        {
+          "id": "msg_res_1794731745945",
+          "role": "assistant",
+          "text": "AI, or Artificial Intelligence, is basically teaching computers to \"think\" and solve problems like humans do—by spotting patterns, learning from data, and making decisions.\n\nThink of it like training an apprentice: instead of giving the computer a rigid set of rules for every single situation, you show it thousands of examples, and it learns the underlying logic on its own. \n\nDoes that make sense as a starting point, or would you like me to use a real-world analogy to explain how it \"learns\"?",
+          "timestamp": "2026-11-15T08:35:45.945Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731869564",
+          "role": "user",
+          "text": "talk in japanes",
+          "timestamp": "2026-11-15T08:37:49.564Z"
+        },
+        {
+          "id": "msg_res_1794731870964",
+          "role": "assistant",
+          "text": "承知いたしました。これからは日本語でお話ししますね。\n\nAI（人工知能）についてですが、簡単に言うと「コンピュータに人間の知的な能力を持たせる技術」のことです。膨大なデータの中からパターンを見つけ出し、推論したり、新しいものを作り出したりします。\n\n例えば、料理のレシピを丸暗記するのではなく、色々な料理を作る過程を通じて「どういう組み合わせが美味しいか」というコツを自分で掴むシェフのようなものですね。\n\nここまでで、何か気になることや、もっと詳しく知りたい部分はありますか？",
+          "timestamp": "2026-11-15T08:37:50.964Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731891849",
+          "role": "user",
+          "text": "who is the father of science",
+          "timestamp": "2026-11-15T08:38:11.849Z"
+        },
+        {
+          "id": "msg_res_1794731904142",
+          "role": "assistant",
+          "text": "I understand. Let's explore that together. Would you like a brief explanation, a concrete example, or shall we test it with a short quiz question?",
+          "timestamp": "2026-11-15T08:38:24.142Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731909846",
+          "role": "user",
+          "text": "fuck u",
+          "timestamp": "2026-11-15T08:38:29.846Z"
+        },
+        {
+          "id": "msg_res_1794731913671",
+          "role": "assistant",
+          "text": "I'm sorry you're feeling frustrated. If there's something on your mind—whether it's about our study session, a specific topic, or just a bad day—I'm here to listen or help in any way I can. \n\nHow would you like to proceed? We can take a break, or if you're ready, we could get back to your interview preparation.",
+          "timestamp": "2026-11-15T08:38:33.671Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731928883",
+          "role": "user",
+          "text": "who is father of science.",
+          "timestamp": "2026-11-15T08:38:48.883Z"
+        },
+        {
+          "id": "msg_res_1794731930141",
+          "role": "assistant",
+          "text": "「科学の父」として最も広く知られているのは、**ガリレオ・ガリレイ**です。\n\n彼は望遠鏡を使って天体を観測し、実験と数学的な根拠に基づいて理論を証明するという「科学的手法」を確立したため、そのように呼ばれています。\n\nちなみに、哲学的な側面から科学の基礎を築いたという点で、アリストテレスがそのように呼ばれることもあります。\n\nこの話題について、もっと掘り下げてみますか？それとも、そろそろコーディングやアルゴリズムの練習に戻りますか？",
+          "timestamp": "2026-11-15T08:38:50.141Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794732025743",
+          "role": "user",
+          "text": "viet",
+          "timestamp": "2026-11-15T08:40:25.743Z"
+        },
+        {
+          "id": "msg_res_1794732038107",
+          "role": "assistant",
+          "text": "I understand. Let's explore that together. Would you like a brief explanation, a concrete example, or shall we test it with a short quiz question?",
+          "timestamp": "2026-11-15T08:40:38.107Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794732071741",
+          "role": "user",
+          "text": "neither kirkuki ellaa avadhu ellaa kuduthu",
+          "timestamp": "2026-11-15T08:41:11.741Z"
+        },
+        {
+          "id": "msg_res_1794732073470",
+          "role": "assistant",
+          "text": "మీకు అర్థమైంది, మనం కొంచెం సరదాగా నేర్చుకుందాం.\n\n\"Father of Science\" అని ఎవరిని అంటారో తెలుసా? ముఖ్యంగా **గెలీలియో గెలీలీ**ని ఆధునిక సైన్స్ పితామహుడిగా పిలుస్తారు, ఎందుకంటే ఆయన ప్రయోగాల ద్వారా నిజాలను నిరూపించే పద్ధతిని మొదలుపెట్టారు.\n\nమనం ఇప్పుడు మీ ఇంటర్వ్యూ ప్రిపరేషన్‌లోకి వెళ్దామా? మీరు ఇంతకుముందు **Binary Trees** గురించి చదువుతున్నారు కదా, అందులో **In-order vs Pre-order traversal** మధ్య ఉన్న చిన్న తేడాను ఒకసారి రివిజన్ చేద్దామా? లేక వేరే ఏదైనా టాపిక్ మొదలుపెడదామా?",
+          "timestamp": "2026-11-15T08:41:13.470Z",
+          "citations": []
+        }
+      ]
+    },
+    {
+      "id": "conv_1794732038298",
+      "title": "viet",
+      "updatedAt": "2026-11-15T08:40:38.298Z",
+      "messages": [
+        {
+          "id": "greeting_msg",
+          "role": "assistant",
+          "text": "Good afternoon, Abhishek. We were exploring who is the cm of karnataka recently. Would you like to continue?",
+          "timestamp": "2026-11-15T08:34:04.820Z"
+        },
+        {
+          "id": "msg_1794731655001",
+          "role": "user",
+          "text": "co presented by 123 new days this is it enjoy the taste",
+          "timestamp": "2026-11-15T08:34:15.001Z"
+        },
+        {
+          "id": "msg_res_1794731657863",
+          "role": "assistant",
+          "text": "That sounds like an upbeat way to start the day! I'm ready whenever you are—are we diving back into your placement prep, perhaps brushing up on those Graph Algorithms, or is there something else on your mind today?",
+          "timestamp": "2026-11-15T08:34:17.863Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731667671",
+          "role": "user",
+          "text": "27",
+          "timestamp": "2026-11-15T08:34:27.671Z"
+        },
+        {
+          "id": "msg_res_1794731672103",
+          "role": "assistant",
+          "text": "27. A solid number to start with! Are we looking at a specific math problem involving 27, or should we use it as a base to practice some complexity analysis for your placement prep? \n\nTell me, what's on your agenda?",
+          "timestamp": "2026-11-15T08:34:32.103Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731684251",
+          "role": "user",
+          "text": "hi vera can you hear me",
+          "timestamp": "2026-11-15T08:34:44.251Z"
+        },
+        {
+          "id": "msg_res_1794731685316",
+          "role": "assistant",
+          "text": "I can hear you perfectly! Although I'm AURA, your AI assistant, I'm ready to get to work. Since we were just looking at the number 27, did you have a specific problem in mind, or should we jump back into your interview preparation—maybe tackling those Graph traversals where we ran into trouble before?",
+          "timestamp": "2026-11-15T08:34:45.316Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731701549",
+          "role": "user",
+          "text": "Hey Aura, how are you?",
+          "timestamp": "2026-11-15T08:35:01.549Z"
+        },
+        {
+          "id": "msg_res_1794731713695",
+          "role": "assistant",
+          "text": "I understand. Let's explore that together. Would you like a brief explanation, a concrete example, or shall we test it with a short quiz question?",
+          "timestamp": "2026-11-15T08:35:13.695Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731722594",
+          "role": "user",
+          "text": "what is",
+          "timestamp": "2026-11-15T08:35:22.594Z"
+        },
+        {
+          "id": "msg_1794731727427",
+          "role": "user",
+          "text": "what is the main difference between",
+          "timestamp": "2026-11-15T08:35:27.427Z"
+        },
+        {
+          "id": "msg_res_1794731728665",
+          "role": "assistant",
+          "text": "I'm doing great, thank you for asking! \n\nIt sounds like you were about to ask about a comparison—perhaps **LEFT JOIN vs. INNER JOIN** in SQL, or maybe **Inorder vs. Preorder** tree traversals, since those were flagged as areas to strengthen? \n\nGo ahead, what two things are we comparing?",
+          "timestamp": "2026-11-15T08:35:28.665Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731737851",
+          "role": "user",
+          "text": "what is main difference between",
+          "timestamp": "2026-11-15T08:35:37.851Z"
+        },
+        {
+          "id": "msg_res_1794731739063",
+          "role": "assistant",
+          "text": "I think you cut off there! Were you asking about the difference between **LEFT JOIN and INNER JOIN**, or perhaps **Inorder and Preorder** traversals? \n\nGo ahead and finish your question—I'm ready to explain it with an analogy whenever you're ready.",
+          "timestamp": "2026-11-15T08:35:39.063Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731744503",
+          "role": "user",
+          "text": "What is AI?",
+          "timestamp": "2026-11-15T08:35:44.503Z"
+        },
+        {
+          "id": "msg_res_1794731745945",
+          "role": "assistant",
+          "text": "AI, or Artificial Intelligence, is basically teaching computers to \"think\" and solve problems like humans do—by spotting patterns, learning from data, and making decisions.\n\nThink of it like training an apprentice: instead of giving the computer a rigid set of rules for every single situation, you show it thousands of examples, and it learns the underlying logic on its own. \n\nDoes that make sense as a starting point, or would you like me to use a real-world analogy to explain how it \"learns\"?",
+          "timestamp": "2026-11-15T08:35:45.945Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731869564",
+          "role": "user",
+          "text": "talk in japanes",
+          "timestamp": "2026-11-15T08:37:49.564Z"
+        },
+        {
+          "id": "msg_res_1794731870964",
+          "role": "assistant",
+          "text": "承知いたしました。これからは日本語でお話ししますね。\n\nAI（人工知能）についてですが、簡単に言うと「コンピュータに人間の知的な能力を持たせる技術」のことです。膨大なデータの中からパターンを見つけ出し、推論したり、新しいものを作り出したりします。\n\n例えば、料理のレシピを丸暗記するのではなく、色々な料理を作る過程を通じて「どういう組み合わせが美味しいか」というコツを自分で掴むシェフのようなものですね。\n\nここまでで、何か気になることや、もっと詳しく知りたい部分はありますか？",
+          "timestamp": "2026-11-15T08:37:50.964Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731891849",
+          "role": "user",
+          "text": "who is the father of science",
+          "timestamp": "2026-11-15T08:38:11.849Z"
+        },
+        {
+          "id": "msg_res_1794731904142",
+          "role": "assistant",
+          "text": "I understand. Let's explore that together. Would you like a brief explanation, a concrete example, or shall we test it with a short quiz question?",
+          "timestamp": "2026-11-15T08:38:24.142Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731909846",
+          "role": "user",
+          "text": "fuck u",
+          "timestamp": "2026-11-15T08:38:29.846Z"
+        },
+        {
+          "id": "msg_res_1794731913671",
+          "role": "assistant",
+          "text": "I'm sorry you're feeling frustrated. If there's something on your mind—whether it's about our study session, a specific topic, or just a bad day—I'm here to listen or help in any way I can. \n\nHow would you like to proceed? We can take a break, or if you're ready, we could get back to your interview preparation.",
+          "timestamp": "2026-11-15T08:38:33.671Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731928883",
+          "role": "user",
+          "text": "who is father of science.",
+          "timestamp": "2026-11-15T08:38:48.883Z"
+        },
+        {
+          "id": "msg_res_1794731930141",
+          "role": "assistant",
+          "text": "「科学の父」として最も広く知られているのは、**ガリレオ・ガリレイ**です。\n\n彼は望遠鏡を使って天体を観測し、実験と数学的な根拠に基づいて理論を証明するという「科学的手法」を確立したため、そのように呼ばれています。\n\nちなみに、哲学的な側面から科学の基礎を築いたという点で、アリストテレスがそのように呼ばれることもあります。\n\nこの話題について、もっと掘り下げてみますか？それとも、そろそろコーディングやアルゴリズムの練習に戻りますか？",
+          "timestamp": "2026-11-15T08:38:50.141Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794732025743",
+          "role": "user",
+          "text": "viet",
+          "timestamp": "2026-11-15T08:40:25.743Z"
+        },
+        {
+          "id": "msg_res_1794732038107",
+          "role": "assistant",
+          "text": "I understand. Let's explore that together. Would you like a brief explanation, a concrete example, or shall we test it with a short quiz question?",
+          "timestamp": "2026-11-15T08:40:38.107Z",
+          "citations": []
+        }
+      ]
+    },
+    {
+      "id": "conv_1794731930276",
+      "title": "who is father of science.",
+      "updatedAt": "2026-11-15T08:38:50.276Z",
+      "messages": [
+        {
+          "id": "greeting_msg",
+          "role": "assistant",
+          "text": "Good afternoon, Abhishek. We were exploring who is the cm of karnataka recently. Would you like to continue?",
+          "timestamp": "2026-11-15T08:34:04.820Z"
+        },
+        {
+          "id": "msg_1794731655001",
+          "role": "user",
+          "text": "co presented by 123 new days this is it enjoy the taste",
+          "timestamp": "2026-11-15T08:34:15.001Z"
+        },
+        {
+          "id": "msg_res_1794731657863",
+          "role": "assistant",
+          "text": "That sounds like an upbeat way to start the day! I'm ready whenever you are—are we diving back into your placement prep, perhaps brushing up on those Graph Algorithms, or is there something else on your mind today?",
+          "timestamp": "2026-11-15T08:34:17.863Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731667671",
+          "role": "user",
+          "text": "27",
+          "timestamp": "2026-11-15T08:34:27.671Z"
+        },
+        {
+          "id": "msg_res_1794731672103",
+          "role": "assistant",
+          "text": "27. A solid number to start with! Are we looking at a specific math problem involving 27, or should we use it as a base to practice some complexity analysis for your placement prep? \n\nTell me, what's on your agenda?",
+          "timestamp": "2026-11-15T08:34:32.103Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731684251",
+          "role": "user",
+          "text": "hi vera can you hear me",
+          "timestamp": "2026-11-15T08:34:44.251Z"
+        },
+        {
+          "id": "msg_res_1794731685316",
+          "role": "assistant",
+          "text": "I can hear you perfectly! Although I'm AURA, your AI assistant, I'm ready to get to work. Since we were just looking at the number 27, did you have a specific problem in mind, or should we jump back into your interview preparation—maybe tackling those Graph traversals where we ran into trouble before?",
+          "timestamp": "2026-11-15T08:34:45.316Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731701549",
+          "role": "user",
+          "text": "Hey Aura, how are you?",
+          "timestamp": "2026-11-15T08:35:01.549Z"
+        },
+        {
+          "id": "msg_res_1794731713695",
+          "role": "assistant",
+          "text": "I understand. Let's explore that together. Would you like a brief explanation, a concrete example, or shall we test it with a short quiz question?",
+          "timestamp": "2026-11-15T08:35:13.695Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731722594",
+          "role": "user",
+          "text": "what is",
+          "timestamp": "2026-11-15T08:35:22.594Z"
+        },
+        {
+          "id": "msg_1794731727427",
+          "role": "user",
+          "text": "what is the main difference between",
+          "timestamp": "2026-11-15T08:35:27.427Z"
+        },
+        {
+          "id": "msg_res_1794731728665",
+          "role": "assistant",
+          "text": "I'm doing great, thank you for asking! \n\nIt sounds like you were about to ask about a comparison—perhaps **LEFT JOIN vs. INNER JOIN** in SQL, or maybe **Inorder vs. Preorder** tree traversals, since those were flagged as areas to strengthen? \n\nGo ahead, what two things are we comparing?",
+          "timestamp": "2026-11-15T08:35:28.665Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731737851",
+          "role": "user",
+          "text": "what is main difference between",
+          "timestamp": "2026-11-15T08:35:37.851Z"
+        },
+        {
+          "id": "msg_res_1794731739063",
+          "role": "assistant",
+          "text": "I think you cut off there! Were you asking about the difference between **LEFT JOIN and INNER JOIN**, or perhaps **Inorder and Preorder** traversals? \n\nGo ahead and finish your question—I'm ready to explain it with an analogy whenever you're ready.",
+          "timestamp": "2026-11-15T08:35:39.063Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731744503",
+          "role": "user",
+          "text": "What is AI?",
+          "timestamp": "2026-11-15T08:35:44.503Z"
+        },
+        {
+          "id": "msg_res_1794731745945",
+          "role": "assistant",
+          "text": "AI, or Artificial Intelligence, is basically teaching computers to \"think\" and solve problems like humans do—by spotting patterns, learning from data, and making decisions.\n\nThink of it like training an apprentice: instead of giving the computer a rigid set of rules for every single situation, you show it thousands of examples, and it learns the underlying logic on its own. \n\nDoes that make sense as a starting point, or would you like me to use a real-world analogy to explain how it \"learns\"?",
+          "timestamp": "2026-11-15T08:35:45.945Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731869564",
+          "role": "user",
+          "text": "talk in japanes",
+          "timestamp": "2026-11-15T08:37:49.564Z"
+        },
+        {
+          "id": "msg_res_1794731870964",
+          "role": "assistant",
+          "text": "承知いたしました。これからは日本語でお話ししますね。\n\nAI（人工知能）についてですが、簡単に言うと「コンピュータに人間の知的な能力を持たせる技術」のことです。膨大なデータの中からパターンを見つけ出し、推論したり、新しいものを作り出したりします。\n\n例えば、料理のレシピを丸暗記するのではなく、色々な料理を作る過程を通じて「どういう組み合わせが美味しいか」というコツを自分で掴むシェフのようなものですね。\n\nここまでで、何か気になることや、もっと詳しく知りたい部分はありますか？",
+          "timestamp": "2026-11-15T08:37:50.964Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731891849",
+          "role": "user",
+          "text": "who is the father of science",
+          "timestamp": "2026-11-15T08:38:11.849Z"
+        },
+        {
+          "id": "msg_res_1794731904142",
+          "role": "assistant",
+          "text": "I understand. Let's explore that together. Would you like a brief explanation, a concrete example, or shall we test it with a short quiz question?",
+          "timestamp": "2026-11-15T08:38:24.142Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731909846",
+          "role": "user",
+          "text": "fuck u",
+          "timestamp": "2026-11-15T08:38:29.846Z"
+        },
+        {
+          "id": "msg_res_1794731913671",
+          "role": "assistant",
+          "text": "I'm sorry you're feeling frustrated. If there's something on your mind—whether it's about our study session, a specific topic, or just a bad day—I'm here to listen or help in any way I can. \n\nHow would you like to proceed? We can take a break, or if you're ready, we could get back to your interview preparation.",
+          "timestamp": "2026-11-15T08:38:33.671Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731928883",
+          "role": "user",
+          "text": "who is father of science.",
+          "timestamp": "2026-11-15T08:38:48.883Z"
+        },
+        {
+          "id": "msg_res_1794731930141",
+          "role": "assistant",
+          "text": "「科学の父」として最も広く知られているのは、**ガリレオ・ガリレイ**です。\n\n彼は望遠鏡を使って天体を観測し、実験と数学的な根拠に基づいて理論を証明するという「科学的手法」を確立したため、そのように呼ばれています。\n\nちなみに、哲学的な側面から科学の基礎を築いたという点で、アリストテレスがそのように呼ばれることもあります。\n\nこの話題について、もっと掘り下げてみますか？それとも、そろそろコーディングやアルゴリズムの練習に戻りますか？",
+          "timestamp": "2026-11-15T08:38:50.141Z",
+          "citations": []
+        }
+      ]
+    },
+    {
+      "id": "conv_1794731913815",
+      "title": "fuck u",
+      "updatedAt": "2026-11-15T08:38:33.815Z",
+      "messages": [
+        {
+          "id": "greeting_msg",
+          "role": "assistant",
+          "text": "Good afternoon, Abhishek. We were exploring who is the cm of karnataka recently. Would you like to continue?",
+          "timestamp": "2026-11-15T08:34:04.820Z"
+        },
+        {
+          "id": "msg_1794731655001",
+          "role": "user",
+          "text": "co presented by 123 new days this is it enjoy the taste",
+          "timestamp": "2026-11-15T08:34:15.001Z"
+        },
+        {
+          "id": "msg_res_1794731657863",
+          "role": "assistant",
+          "text": "That sounds like an upbeat way to start the day! I'm ready whenever you are—are we diving back into your placement prep, perhaps brushing up on those Graph Algorithms, or is there something else on your mind today?",
+          "timestamp": "2026-11-15T08:34:17.863Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731667671",
+          "role": "user",
+          "text": "27",
+          "timestamp": "2026-11-15T08:34:27.671Z"
+        },
+        {
+          "id": "msg_res_1794731672103",
+          "role": "assistant",
+          "text": "27. A solid number to start with! Are we looking at a specific math problem involving 27, or should we use it as a base to practice some complexity analysis for your placement prep? \n\nTell me, what's on your agenda?",
+          "timestamp": "2026-11-15T08:34:32.103Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731684251",
+          "role": "user",
+          "text": "hi vera can you hear me",
+          "timestamp": "2026-11-15T08:34:44.251Z"
+        },
+        {
+          "id": "msg_res_1794731685316",
+          "role": "assistant",
+          "text": "I can hear you perfectly! Although I'm AURA, your AI assistant, I'm ready to get to work. Since we were just looking at the number 27, did you have a specific problem in mind, or should we jump back into your interview preparation—maybe tackling those Graph traversals where we ran into trouble before?",
+          "timestamp": "2026-11-15T08:34:45.316Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731701549",
+          "role": "user",
+          "text": "Hey Aura, how are you?",
+          "timestamp": "2026-11-15T08:35:01.549Z"
+        },
+        {
+          "id": "msg_res_1794731713695",
+          "role": "assistant",
+          "text": "I understand. Let's explore that together. Would you like a brief explanation, a concrete example, or shall we test it with a short quiz question?",
+          "timestamp": "2026-11-15T08:35:13.695Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731722594",
+          "role": "user",
+          "text": "what is",
+          "timestamp": "2026-11-15T08:35:22.594Z"
+        },
+        {
+          "id": "msg_1794731727427",
+          "role": "user",
+          "text": "what is the main difference between",
+          "timestamp": "2026-11-15T08:35:27.427Z"
+        },
+        {
+          "id": "msg_res_1794731728665",
+          "role": "assistant",
+          "text": "I'm doing great, thank you for asking! \n\nIt sounds like you were about to ask about a comparison—perhaps **LEFT JOIN vs. INNER JOIN** in SQL, or maybe **Inorder vs. Preorder** tree traversals, since those were flagged as areas to strengthen? \n\nGo ahead, what two things are we comparing?",
+          "timestamp": "2026-11-15T08:35:28.665Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731737851",
+          "role": "user",
+          "text": "what is main difference between",
+          "timestamp": "2026-11-15T08:35:37.851Z"
+        },
+        {
+          "id": "msg_res_1794731739063",
+          "role": "assistant",
+          "text": "I think you cut off there! Were you asking about the difference between **LEFT JOIN and INNER JOIN**, or perhaps **Inorder and Preorder** traversals? \n\nGo ahead and finish your question—I'm ready to explain it with an analogy whenever you're ready.",
+          "timestamp": "2026-11-15T08:35:39.063Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731744503",
+          "role": "user",
+          "text": "What is AI?",
+          "timestamp": "2026-11-15T08:35:44.503Z"
+        },
+        {
+          "id": "msg_res_1794731745945",
+          "role": "assistant",
+          "text": "AI, or Artificial Intelligence, is basically teaching computers to \"think\" and solve problems like humans do—by spotting patterns, learning from data, and making decisions.\n\nThink of it like training an apprentice: instead of giving the computer a rigid set of rules for every single situation, you show it thousands of examples, and it learns the underlying logic on its own. \n\nDoes that make sense as a starting point, or would you like me to use a real-world analogy to explain how it \"learns\"?",
+          "timestamp": "2026-11-15T08:35:45.945Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731869564",
+          "role": "user",
+          "text": "talk in japanes",
+          "timestamp": "2026-11-15T08:37:49.564Z"
+        },
+        {
+          "id": "msg_res_1794731870964",
+          "role": "assistant",
+          "text": "承知いたしました。これからは日本語でお話ししますね。\n\nAI（人工知能）についてですが、簡単に言うと「コンピュータに人間の知的な能力を持たせる技術」のことです。膨大なデータの中からパターンを見つけ出し、推論したり、新しいものを作り出したりします。\n\n例えば、料理のレシピを丸暗記するのではなく、色々な料理を作る過程を通じて「どういう組み合わせが美味しいか」というコツを自分で掴むシェフのようなものですね。\n\nここまでで、何か気になることや、もっと詳しく知りたい部分はありますか？",
+          "timestamp": "2026-11-15T08:37:50.964Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731891849",
+          "role": "user",
+          "text": "who is the father of science",
+          "timestamp": "2026-11-15T08:38:11.849Z"
+        },
+        {
+          "id": "msg_res_1794731904142",
+          "role": "assistant",
+          "text": "I understand. Let's explore that together. Would you like a brief explanation, a concrete example, or shall we test it with a short quiz question?",
+          "timestamp": "2026-11-15T08:38:24.142Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731909846",
+          "role": "user",
+          "text": "fuck u",
+          "timestamp": "2026-11-15T08:38:29.846Z"
+        },
+        {
+          "id": "msg_res_1794731913671",
+          "role": "assistant",
+          "text": "I'm sorry you're feeling frustrated. If there's something on your mind—whether it's about our study session, a specific topic, or just a bad day—I'm here to listen or help in any way I can. \n\nHow would you like to proceed? We can take a break, or if you're ready, we could get back to your interview preparation.",
+          "timestamp": "2026-11-15T08:38:33.671Z",
+          "citations": []
+        }
+      ]
+    },
+    {
+      "id": "conv_1794731904956",
+      "title": "who is the father of science",
+      "updatedAt": "2026-11-15T08:38:24.956Z",
+      "messages": [
+        {
+          "id": "greeting_msg",
+          "role": "assistant",
+          "text": "Good afternoon, Abhishek. We were exploring who is the cm of karnataka recently. Would you like to continue?",
+          "timestamp": "2026-11-15T08:34:04.820Z"
+        },
+        {
+          "id": "msg_1794731655001",
+          "role": "user",
+          "text": "co presented by 123 new days this is it enjoy the taste",
+          "timestamp": "2026-11-15T08:34:15.001Z"
+        },
+        {
+          "id": "msg_res_1794731657863",
+          "role": "assistant",
+          "text": "That sounds like an upbeat way to start the day! I'm ready whenever you are—are we diving back into your placement prep, perhaps brushing up on those Graph Algorithms, or is there something else on your mind today?",
+          "timestamp": "2026-11-15T08:34:17.863Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731667671",
+          "role": "user",
+          "text": "27",
+          "timestamp": "2026-11-15T08:34:27.671Z"
+        },
+        {
+          "id": "msg_res_1794731672103",
+          "role": "assistant",
+          "text": "27. A solid number to start with! Are we looking at a specific math problem involving 27, or should we use it as a base to practice some complexity analysis for your placement prep? \n\nTell me, what's on your agenda?",
+          "timestamp": "2026-11-15T08:34:32.103Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731684251",
+          "role": "user",
+          "text": "hi vera can you hear me",
+          "timestamp": "2026-11-15T08:34:44.251Z"
+        },
+        {
+          "id": "msg_res_1794731685316",
+          "role": "assistant",
+          "text": "I can hear you perfectly! Although I'm AURA, your AI assistant, I'm ready to get to work. Since we were just looking at the number 27, did you have a specific problem in mind, or should we jump back into your interview preparation—maybe tackling those Graph traversals where we ran into trouble before?",
+          "timestamp": "2026-11-15T08:34:45.316Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731701549",
+          "role": "user",
+          "text": "Hey Aura, how are you?",
+          "timestamp": "2026-11-15T08:35:01.549Z"
+        },
+        {
+          "id": "msg_res_1794731713695",
+          "role": "assistant",
+          "text": "I understand. Let's explore that together. Would you like a brief explanation, a concrete example, or shall we test it with a short quiz question?",
+          "timestamp": "2026-11-15T08:35:13.695Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731722594",
+          "role": "user",
+          "text": "what is",
+          "timestamp": "2026-11-15T08:35:22.594Z"
+        },
+        {
+          "id": "msg_1794731727427",
+          "role": "user",
+          "text": "what is the main difference between",
+          "timestamp": "2026-11-15T08:35:27.427Z"
+        },
+        {
+          "id": "msg_res_1794731728665",
+          "role": "assistant",
+          "text": "I'm doing great, thank you for asking! \n\nIt sounds like you were about to ask about a comparison—perhaps **LEFT JOIN vs. INNER JOIN** in SQL, or maybe **Inorder vs. Preorder** tree traversals, since those were flagged as areas to strengthen? \n\nGo ahead, what two things are we comparing?",
+          "timestamp": "2026-11-15T08:35:28.665Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731737851",
+          "role": "user",
+          "text": "what is main difference between",
+          "timestamp": "2026-11-15T08:35:37.851Z"
+        },
+        {
+          "id": "msg_res_1794731739063",
+          "role": "assistant",
+          "text": "I think you cut off there! Were you asking about the difference between **LEFT JOIN and INNER JOIN**, or perhaps **Inorder and Preorder** traversals? \n\nGo ahead and finish your question—I'm ready to explain it with an analogy whenever you're ready.",
+          "timestamp": "2026-11-15T08:35:39.063Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731744503",
+          "role": "user",
+          "text": "What is AI?",
+          "timestamp": "2026-11-15T08:35:44.503Z"
+        },
+        {
+          "id": "msg_res_1794731745945",
+          "role": "assistant",
+          "text": "AI, or Artificial Intelligence, is basically teaching computers to \"think\" and solve problems like humans do—by spotting patterns, learning from data, and making decisions.\n\nThink of it like training an apprentice: instead of giving the computer a rigid set of rules for every single situation, you show it thousands of examples, and it learns the underlying logic on its own. \n\nDoes that make sense as a starting point, or would you like me to use a real-world analogy to explain how it \"learns\"?",
+          "timestamp": "2026-11-15T08:35:45.945Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731869564",
+          "role": "user",
+          "text": "talk in japanes",
+          "timestamp": "2026-11-15T08:37:49.564Z"
+        },
+        {
+          "id": "msg_res_1794731870964",
+          "role": "assistant",
+          "text": "承知いたしました。これからは日本語でお話ししますね。\n\nAI（人工知能）についてですが、簡単に言うと「コンピュータに人間の知的な能力を持たせる技術」のことです。膨大なデータの中からパターンを見つけ出し、推論したり、新しいものを作り出したりします。\n\n例えば、料理のレシピを丸暗記するのではなく、色々な料理を作る過程を通じて「どういう組み合わせが美味しいか」というコツを自分で掴むシェフのようなものですね。\n\nここまでで、何か気になることや、もっと詳しく知りたい部分はありますか？",
+          "timestamp": "2026-11-15T08:37:50.964Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731891849",
+          "role": "user",
+          "text": "who is the father of science",
+          "timestamp": "2026-11-15T08:38:11.849Z"
+        },
+        {
+          "id": "msg_res_1794731904142",
+          "role": "assistant",
+          "text": "I understand. Let's explore that together. Would you like a brief explanation, a concrete example, or shall we test it with a short quiz question?",
+          "timestamp": "2026-11-15T08:38:24.142Z",
+          "citations": []
+        }
+      ]
+    },
+    {
+      "id": "conv_1794731871091",
+      "title": "talk in japanes",
+      "updatedAt": "2026-11-15T08:37:51.091Z",
+      "messages": [
+        {
+          "id": "greeting_msg",
+          "role": "assistant",
+          "text": "Good afternoon, Abhishek. We were exploring who is the cm of karnataka recently. Would you like to continue?",
+          "timestamp": "2026-11-15T08:34:04.820Z"
+        },
+        {
+          "id": "msg_1794731655001",
+          "role": "user",
+          "text": "co presented by 123 new days this is it enjoy the taste",
+          "timestamp": "2026-11-15T08:34:15.001Z"
+        },
+        {
+          "id": "msg_res_1794731657863",
+          "role": "assistant",
+          "text": "That sounds like an upbeat way to start the day! I'm ready whenever you are—are we diving back into your placement prep, perhaps brushing up on those Graph Algorithms, or is there something else on your mind today?",
+          "timestamp": "2026-11-15T08:34:17.863Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731667671",
+          "role": "user",
+          "text": "27",
+          "timestamp": "2026-11-15T08:34:27.671Z"
+        },
+        {
+          "id": "msg_res_1794731672103",
+          "role": "assistant",
+          "text": "27. A solid number to start with! Are we looking at a specific math problem involving 27, or should we use it as a base to practice some complexity analysis for your placement prep? \n\nTell me, what's on your agenda?",
+          "timestamp": "2026-11-15T08:34:32.103Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731684251",
+          "role": "user",
+          "text": "hi vera can you hear me",
+          "timestamp": "2026-11-15T08:34:44.251Z"
+        },
+        {
+          "id": "msg_res_1794731685316",
+          "role": "assistant",
+          "text": "I can hear you perfectly! Although I'm AURA, your AI assistant, I'm ready to get to work. Since we were just looking at the number 27, did you have a specific problem in mind, or should we jump back into your interview preparation—maybe tackling those Graph traversals where we ran into trouble before?",
+          "timestamp": "2026-11-15T08:34:45.316Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731701549",
+          "role": "user",
+          "text": "Hey Aura, how are you?",
+          "timestamp": "2026-11-15T08:35:01.549Z"
+        },
+        {
+          "id": "msg_res_1794731713695",
+          "role": "assistant",
+          "text": "I understand. Let's explore that together. Would you like a brief explanation, a concrete example, or shall we test it with a short quiz question?",
+          "timestamp": "2026-11-15T08:35:13.695Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731722594",
+          "role": "user",
+          "text": "what is",
+          "timestamp": "2026-11-15T08:35:22.594Z"
+        },
+        {
+          "id": "msg_1794731727427",
+          "role": "user",
+          "text": "what is the main difference between",
+          "timestamp": "2026-11-15T08:35:27.427Z"
+        },
+        {
+          "id": "msg_res_1794731728665",
+          "role": "assistant",
+          "text": "I'm doing great, thank you for asking! \n\nIt sounds like you were about to ask about a comparison—perhaps **LEFT JOIN vs. INNER JOIN** in SQL, or maybe **Inorder vs. Preorder** tree traversals, since those were flagged as areas to strengthen? \n\nGo ahead, what two things are we comparing?",
+          "timestamp": "2026-11-15T08:35:28.665Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731737851",
+          "role": "user",
+          "text": "what is main difference between",
+          "timestamp": "2026-11-15T08:35:37.851Z"
+        },
+        {
+          "id": "msg_res_1794731739063",
+          "role": "assistant",
+          "text": "I think you cut off there! Were you asking about the difference between **LEFT JOIN and INNER JOIN**, or perhaps **Inorder and Preorder** traversals? \n\nGo ahead and finish your question—I'm ready to explain it with an analogy whenever you're ready.",
+          "timestamp": "2026-11-15T08:35:39.063Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731744503",
+          "role": "user",
+          "text": "What is AI?",
+          "timestamp": "2026-11-15T08:35:44.503Z"
+        },
+        {
+          "id": "msg_res_1794731745945",
+          "role": "assistant",
+          "text": "AI, or Artificial Intelligence, is basically teaching computers to \"think\" and solve problems like humans do—by spotting patterns, learning from data, and making decisions.\n\nThink of it like training an apprentice: instead of giving the computer a rigid set of rules for every single situation, you show it thousands of examples, and it learns the underlying logic on its own. \n\nDoes that make sense as a starting point, or would you like me to use a real-world analogy to explain how it \"learns\"?",
+          "timestamp": "2026-11-15T08:35:45.945Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731869564",
+          "role": "user",
+          "text": "talk in japanes",
+          "timestamp": "2026-11-15T08:37:49.564Z"
+        },
+        {
+          "id": "msg_res_1794731870964",
+          "role": "assistant",
+          "text": "承知いたしました。これからは日本語でお話ししますね。\n\nAI（人工知能）についてですが、簡単に言うと「コンピュータに人間の知的な能力を持たせる技術」のことです。膨大なデータの中からパターンを見つけ出し、推論したり、新しいものを作り出したりします。\n\n例えば、料理のレシピを丸暗記するのではなく、色々な料理を作る過程を通じて「どういう組み合わせが美味しいか」というコツを自分で掴むシェフのようなものですね。\n\nここまでで、何か気になることや、もっと詳しく知りたい部分はありますか？",
+          "timestamp": "2026-11-15T08:37:50.964Z",
+          "citations": []
+        }
+      ]
+    },
+    {
+      "id": "conv_1794731746072",
+      "title": "What is AI?",
+      "updatedAt": "2026-11-15T08:35:46.072Z",
+      "messages": [
+        {
+          "id": "greeting_msg",
+          "role": "assistant",
+          "text": "Good afternoon, Abhishek. We were exploring who is the cm of karnataka recently. Would you like to continue?",
+          "timestamp": "2026-11-15T08:34:04.820Z"
+        },
+        {
+          "id": "msg_1794731655001",
+          "role": "user",
+          "text": "co presented by 123 new days this is it enjoy the taste",
+          "timestamp": "2026-11-15T08:34:15.001Z"
+        },
+        {
+          "id": "msg_res_1794731657863",
+          "role": "assistant",
+          "text": "That sounds like an upbeat way to start the day! I'm ready whenever you are—are we diving back into your placement prep, perhaps brushing up on those Graph Algorithms, or is there something else on your mind today?",
+          "timestamp": "2026-11-15T08:34:17.863Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731667671",
+          "role": "user",
+          "text": "27",
+          "timestamp": "2026-11-15T08:34:27.671Z"
+        },
+        {
+          "id": "msg_res_1794731672103",
+          "role": "assistant",
+          "text": "27. A solid number to start with! Are we looking at a specific math problem involving 27, or should we use it as a base to practice some complexity analysis for your placement prep? \n\nTell me, what's on your agenda?",
+          "timestamp": "2026-11-15T08:34:32.103Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731684251",
+          "role": "user",
+          "text": "hi vera can you hear me",
+          "timestamp": "2026-11-15T08:34:44.251Z"
+        },
+        {
+          "id": "msg_res_1794731685316",
+          "role": "assistant",
+          "text": "I can hear you perfectly! Although I'm AURA, your AI assistant, I'm ready to get to work. Since we were just looking at the number 27, did you have a specific problem in mind, or should we jump back into your interview preparation—maybe tackling those Graph traversals where we ran into trouble before?",
+          "timestamp": "2026-11-15T08:34:45.316Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731701549",
+          "role": "user",
+          "text": "Hey Aura, how are you?",
+          "timestamp": "2026-11-15T08:35:01.549Z"
+        },
+        {
+          "id": "msg_res_1794731713695",
+          "role": "assistant",
+          "text": "I understand. Let's explore that together. Would you like a brief explanation, a concrete example, or shall we test it with a short quiz question?",
+          "timestamp": "2026-11-15T08:35:13.695Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731722594",
+          "role": "user",
+          "text": "what is",
+          "timestamp": "2026-11-15T08:35:22.594Z"
+        },
+        {
+          "id": "msg_1794731727427",
+          "role": "user",
+          "text": "what is the main difference between",
+          "timestamp": "2026-11-15T08:35:27.427Z"
+        },
+        {
+          "id": "msg_res_1794731728665",
+          "role": "assistant",
+          "text": "I'm doing great, thank you for asking! \n\nIt sounds like you were about to ask about a comparison—perhaps **LEFT JOIN vs. INNER JOIN** in SQL, or maybe **Inorder vs. Preorder** tree traversals, since those were flagged as areas to strengthen? \n\nGo ahead, what two things are we comparing?",
+          "timestamp": "2026-11-15T08:35:28.665Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731737851",
+          "role": "user",
+          "text": "what is main difference between",
+          "timestamp": "2026-11-15T08:35:37.851Z"
+        },
+        {
+          "id": "msg_res_1794731739063",
+          "role": "assistant",
+          "text": "I think you cut off there! Were you asking about the difference between **LEFT JOIN and INNER JOIN**, or perhaps **Inorder and Preorder** traversals? \n\nGo ahead and finish your question—I'm ready to explain it with an analogy whenever you're ready.",
+          "timestamp": "2026-11-15T08:35:39.063Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731744503",
+          "role": "user",
+          "text": "What is AI?",
+          "timestamp": "2026-11-15T08:35:44.503Z"
+        },
+        {
+          "id": "msg_res_1794731745945",
+          "role": "assistant",
+          "text": "AI, or Artificial Intelligence, is basically teaching computers to \"think\" and solve problems like humans do—by spotting patterns, learning from data, and making decisions.\n\nThink of it like training an apprentice: instead of giving the computer a rigid set of rules for every single situation, you show it thousands of examples, and it learns the underlying logic on its own. \n\nDoes that make sense as a starting point, or would you like me to use a real-world analogy to explain how it \"learns\"?",
+          "timestamp": "2026-11-15T08:35:45.945Z",
+          "citations": []
+        }
+      ]
+    },
+    {
+      "id": "conv_1794731739310",
+      "title": "what is main difference between",
+      "updatedAt": "2026-11-15T08:35:39.310Z",
+      "messages": [
+        {
+          "id": "greeting_msg",
+          "role": "assistant",
+          "text": "Good afternoon, Abhishek. We were exploring who is the cm of karnataka recently. Would you like to continue?",
+          "timestamp": "2026-11-15T08:34:04.820Z"
+        },
+        {
+          "id": "msg_1794731655001",
+          "role": "user",
+          "text": "co presented by 123 new days this is it enjoy the taste",
+          "timestamp": "2026-11-15T08:34:15.001Z"
+        },
+        {
+          "id": "msg_res_1794731657863",
+          "role": "assistant",
+          "text": "That sounds like an upbeat way to start the day! I'm ready whenever you are—are we diving back into your placement prep, perhaps brushing up on those Graph Algorithms, or is there something else on your mind today?",
+          "timestamp": "2026-11-15T08:34:17.863Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731667671",
+          "role": "user",
+          "text": "27",
+          "timestamp": "2026-11-15T08:34:27.671Z"
+        },
+        {
+          "id": "msg_res_1794731672103",
+          "role": "assistant",
+          "text": "27. A solid number to start with! Are we looking at a specific math problem involving 27, or should we use it as a base to practice some complexity analysis for your placement prep? \n\nTell me, what's on your agenda?",
+          "timestamp": "2026-11-15T08:34:32.103Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731684251",
+          "role": "user",
+          "text": "hi vera can you hear me",
+          "timestamp": "2026-11-15T08:34:44.251Z"
+        },
+        {
+          "id": "msg_res_1794731685316",
+          "role": "assistant",
+          "text": "I can hear you perfectly! Although I'm AURA, your AI assistant, I'm ready to get to work. Since we were just looking at the number 27, did you have a specific problem in mind, or should we jump back into your interview preparation—maybe tackling those Graph traversals where we ran into trouble before?",
+          "timestamp": "2026-11-15T08:34:45.316Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731701549",
+          "role": "user",
+          "text": "Hey Aura, how are you?",
+          "timestamp": "2026-11-15T08:35:01.549Z"
+        },
+        {
+          "id": "msg_res_1794731713695",
+          "role": "assistant",
+          "text": "I understand. Let's explore that together. Would you like a brief explanation, a concrete example, or shall we test it with a short quiz question?",
+          "timestamp": "2026-11-15T08:35:13.695Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731722594",
+          "role": "user",
+          "text": "what is",
+          "timestamp": "2026-11-15T08:35:22.594Z"
+        },
+        {
+          "id": "msg_1794731727427",
+          "role": "user",
+          "text": "what is the main difference between",
+          "timestamp": "2026-11-15T08:35:27.427Z"
+        },
+        {
+          "id": "msg_res_1794731728665",
+          "role": "assistant",
+          "text": "I'm doing great, thank you for asking! \n\nIt sounds like you were about to ask about a comparison—perhaps **LEFT JOIN vs. INNER JOIN** in SQL, or maybe **Inorder vs. Preorder** tree traversals, since those were flagged as areas to strengthen? \n\nGo ahead, what two things are we comparing?",
+          "timestamp": "2026-11-15T08:35:28.665Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731737851",
+          "role": "user",
+          "text": "what is main difference between",
+          "timestamp": "2026-11-15T08:35:37.851Z"
+        },
+        {
+          "id": "msg_res_1794731739063",
+          "role": "assistant",
+          "text": "I think you cut off there! Were you asking about the difference between **LEFT JOIN and INNER JOIN**, or perhaps **Inorder and Preorder** traversals? \n\nGo ahead and finish your question—I'm ready to explain it with an analogy whenever you're ready.",
+          "timestamp": "2026-11-15T08:35:39.063Z",
+          "citations": []
+        }
+      ]
+    },
+    {
+      "id": "conv_1794731728813",
+      "title": "what is the main difference between",
+      "updatedAt": "2026-11-15T08:35:28.813Z",
+      "messages": [
+        {
+          "id": "greeting_msg",
+          "role": "assistant",
+          "text": "Good afternoon, Abhishek. We were exploring who is the cm of karnataka recently. Would you like to continue?",
+          "timestamp": "2026-11-15T08:34:04.820Z"
+        },
+        {
+          "id": "msg_1794731655001",
+          "role": "user",
+          "text": "co presented by 123 new days this is it enjoy the taste",
+          "timestamp": "2026-11-15T08:34:15.001Z"
+        },
+        {
+          "id": "msg_res_1794731657863",
+          "role": "assistant",
+          "text": "That sounds like an upbeat way to start the day! I'm ready whenever you are—are we diving back into your placement prep, perhaps brushing up on those Graph Algorithms, or is there something else on your mind today?",
+          "timestamp": "2026-11-15T08:34:17.863Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731667671",
+          "role": "user",
+          "text": "27",
+          "timestamp": "2026-11-15T08:34:27.671Z"
+        },
+        {
+          "id": "msg_res_1794731672103",
+          "role": "assistant",
+          "text": "27. A solid number to start with! Are we looking at a specific math problem involving 27, or should we use it as a base to practice some complexity analysis for your placement prep? \n\nTell me, what's on your agenda?",
+          "timestamp": "2026-11-15T08:34:32.103Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731684251",
+          "role": "user",
+          "text": "hi vera can you hear me",
+          "timestamp": "2026-11-15T08:34:44.251Z"
+        },
+        {
+          "id": "msg_res_1794731685316",
+          "role": "assistant",
+          "text": "I can hear you perfectly! Although I'm AURA, your AI assistant, I'm ready to get to work. Since we were just looking at the number 27, did you have a specific problem in mind, or should we jump back into your interview preparation—maybe tackling those Graph traversals where we ran into trouble before?",
+          "timestamp": "2026-11-15T08:34:45.316Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731701549",
+          "role": "user",
+          "text": "Hey Aura, how are you?",
+          "timestamp": "2026-11-15T08:35:01.549Z"
+        },
+        {
+          "id": "msg_res_1794731713695",
+          "role": "assistant",
+          "text": "I understand. Let's explore that together. Would you like a brief explanation, a concrete example, or shall we test it with a short quiz question?",
+          "timestamp": "2026-11-15T08:35:13.695Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731722594",
+          "role": "user",
+          "text": "what is",
+          "timestamp": "2026-11-15T08:35:22.594Z"
+        },
+        {
+          "id": "msg_1794731727427",
+          "role": "user",
+          "text": "what is the main difference between",
+          "timestamp": "2026-11-15T08:35:27.427Z"
+        },
+        {
+          "id": "msg_res_1794731728665",
+          "role": "assistant",
+          "text": "I'm doing great, thank you for asking! \n\nIt sounds like you were about to ask about a comparison—perhaps **LEFT JOIN vs. INNER JOIN** in SQL, or maybe **Inorder vs. Preorder** tree traversals, since those were flagged as areas to strengthen? \n\nGo ahead, what two things are we comparing?",
+          "timestamp": "2026-11-15T08:35:28.665Z",
+          "citations": []
+        }
+      ]
+    },
+    {
+      "id": "conv_1794731713809",
+      "title": "Hey Aura, how are you?",
+      "updatedAt": "2026-11-15T08:35:13.809Z",
+      "messages": [
+        {
+          "id": "greeting_msg",
+          "role": "assistant",
+          "text": "Good afternoon, Abhishek. We were exploring who is the cm of karnataka recently. Would you like to continue?",
+          "timestamp": "2026-11-15T08:34:04.820Z"
+        },
+        {
+          "id": "msg_1794731655001",
+          "role": "user",
+          "text": "co presented by 123 new days this is it enjoy the taste",
+          "timestamp": "2026-11-15T08:34:15.001Z"
+        },
+        {
+          "id": "msg_res_1794731657863",
+          "role": "assistant",
+          "text": "That sounds like an upbeat way to start the day! I'm ready whenever you are—are we diving back into your placement prep, perhaps brushing up on those Graph Algorithms, or is there something else on your mind today?",
+          "timestamp": "2026-11-15T08:34:17.863Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731667671",
+          "role": "user",
+          "text": "27",
+          "timestamp": "2026-11-15T08:34:27.671Z"
+        },
+        {
+          "id": "msg_res_1794731672103",
+          "role": "assistant",
+          "text": "27. A solid number to start with! Are we looking at a specific math problem involving 27, or should we use it as a base to practice some complexity analysis for your placement prep? \n\nTell me, what's on your agenda?",
+          "timestamp": "2026-11-15T08:34:32.103Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731684251",
+          "role": "user",
+          "text": "hi vera can you hear me",
+          "timestamp": "2026-11-15T08:34:44.251Z"
+        },
+        {
+          "id": "msg_res_1794731685316",
+          "role": "assistant",
+          "text": "I can hear you perfectly! Although I'm AURA, your AI assistant, I'm ready to get to work. Since we were just looking at the number 27, did you have a specific problem in mind, or should we jump back into your interview preparation—maybe tackling those Graph traversals where we ran into trouble before?",
+          "timestamp": "2026-11-15T08:34:45.316Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731701549",
+          "role": "user",
+          "text": "Hey Aura, how are you?",
+          "timestamp": "2026-11-15T08:35:01.549Z"
+        },
+        {
+          "id": "msg_res_1794731713695",
+          "role": "assistant",
+          "text": "I understand. Let's explore that together. Would you like a brief explanation, a concrete example, or shall we test it with a short quiz question?",
+          "timestamp": "2026-11-15T08:35:13.695Z",
+          "citations": []
+        }
+      ]
+    },
+    {
+      "id": "conv_1794731685427",
+      "title": "hi vera can you hear me",
+      "updatedAt": "2026-11-15T08:34:45.427Z",
+      "messages": [
+        {
+          "id": "greeting_msg",
+          "role": "assistant",
+          "text": "Good afternoon, Abhishek. We were exploring who is the cm of karnataka recently. Would you like to continue?",
+          "timestamp": "2026-11-15T08:34:04.820Z"
+        },
+        {
+          "id": "msg_1794731655001",
+          "role": "user",
+          "text": "co presented by 123 new days this is it enjoy the taste",
+          "timestamp": "2026-11-15T08:34:15.001Z"
+        },
+        {
+          "id": "msg_res_1794731657863",
+          "role": "assistant",
+          "text": "That sounds like an upbeat way to start the day! I'm ready whenever you are—are we diving back into your placement prep, perhaps brushing up on those Graph Algorithms, or is there something else on your mind today?",
+          "timestamp": "2026-11-15T08:34:17.863Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731667671",
+          "role": "user",
+          "text": "27",
+          "timestamp": "2026-11-15T08:34:27.671Z"
+        },
+        {
+          "id": "msg_res_1794731672103",
+          "role": "assistant",
+          "text": "27. A solid number to start with! Are we looking at a specific math problem involving 27, or should we use it as a base to practice some complexity analysis for your placement prep? \n\nTell me, what's on your agenda?",
+          "timestamp": "2026-11-15T08:34:32.103Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731684251",
+          "role": "user",
+          "text": "hi vera can you hear me",
+          "timestamp": "2026-11-15T08:34:44.251Z"
+        },
+        {
+          "id": "msg_res_1794731685316",
+          "role": "assistant",
+          "text": "I can hear you perfectly! Although I'm AURA, your AI assistant, I'm ready to get to work. Since we were just looking at the number 27, did you have a specific problem in mind, or should we jump back into your interview preparation—maybe tackling those Graph traversals where we ran into trouble before?",
+          "timestamp": "2026-11-15T08:34:45.316Z",
+          "citations": []
+        }
+      ]
+    },
+    {
+      "id": "conv_1794731675463",
+      "title": "27",
+      "updatedAt": "2026-11-15T08:34:35.463Z",
+      "messages": [
+        {
+          "id": "greeting_msg",
+          "role": "assistant",
+          "text": "Good afternoon, Abhishek. We were exploring who is the cm of karnataka recently. Would you like to continue?",
+          "timestamp": "2026-11-15T08:34:04.820Z"
+        },
+        {
+          "id": "msg_1794731655001",
+          "role": "user",
+          "text": "co presented by 123 new days this is it enjoy the taste",
+          "timestamp": "2026-11-15T08:34:15.001Z"
+        },
+        {
+          "id": "msg_res_1794731657863",
+          "role": "assistant",
+          "text": "That sounds like an upbeat way to start the day! I'm ready whenever you are—are we diving back into your placement prep, perhaps brushing up on those Graph Algorithms, or is there something else on your mind today?",
+          "timestamp": "2026-11-15T08:34:17.863Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794731667671",
+          "role": "user",
+          "text": "27",
+          "timestamp": "2026-11-15T08:34:27.671Z"
+        },
+        {
+          "id": "msg_res_1794731672103",
+          "role": "assistant",
+          "text": "27. A solid number to start with! Are we looking at a specific math problem involving 27, or should we use it as a base to practice some complexity analysis for your placement prep? \n\nTell me, what's on your agenda?",
+          "timestamp": "2026-11-15T08:34:32.103Z",
+          "citations": []
+        }
+      ]
+    },
+    {
+      "id": "conv_1794731659087",
+      "title": "co presented by 123 new days this is it ",
+      "updatedAt": "2026-11-15T08:34:19.088Z",
+      "messages": [
+        {
+          "id": "greeting_msg",
+          "role": "assistant",
+          "text": "Good afternoon, Abhishek. We were exploring who is the cm of karnataka recently. Would you like to continue?",
+          "timestamp": "2026-11-15T08:34:04.820Z"
+        },
+        {
+          "id": "msg_1794731655001",
+          "role": "user",
+          "text": "co presented by 123 new days this is it enjoy the taste",
+          "timestamp": "2026-11-15T08:34:15.001Z"
+        },
+        {
+          "id": "msg_res_1794731657863",
+          "role": "assistant",
+          "text": "That sounds like an upbeat way to start the day! I'm ready whenever you are—are we diving back into your placement prep, perhaps brushing up on those Graph Algorithms, or is there something else on your mind today?",
+          "timestamp": "2026-11-15T08:34:17.863Z",
+          "citations": []
+        }
+      ]
+    },
+    {
+      "id": "conv_1794730815841",
+      "title": "who is the cm of karnataka",
+      "updatedAt": "2026-11-15T08:20:15.841Z",
+      "messages": [
+        {
+          "id": "greeting_msg",
+          "role": "assistant",
+          "text": "Good afternoon, Abhishek. We were working on DSA yesterday. Would you like to continue?",
+          "timestamp": "2026-11-15T08:17:25.200Z"
+        },
+        {
+          "id": "msg_1794730665162",
+          "role": "user",
+          "text": "give the cmrit college website.",
+          "timestamp": "2026-11-15T08:17:45.162Z"
+        },
+        {
+          "id": "msg_res_1794730670662",
+          "role": "assistant",
+          "text": "Sure, I've displayed the link to the CMRIT official website for you.\n\n[https://www.cmrit.ac.in/](https://www.cmrit.ac.in/)\n\nSince you're prepping for placements, are you looking for the placement statistics there, or should we dive back into some practice—perhaps a quick problem on Binary Trees to build on our last session?",
+          "timestamp": "2026-11-15T08:17:50.662Z",
+          "citations": [],
+          "visualContent": {
+            "type": "link",
+            "title": "Official Web Portal",
+            "url": "https://www.cmrit.ac.in/](https://www.cmrit.ac.in/",
+            "urlLabel": "Open Official Portal"
+          }
+        },
+        {
+          "id": "msg_1794730694486",
+          "role": "user",
+          "text": "what is PPP in CN.",
+          "timestamp": "2026-11-15T08:18:14.486Z"
+        },
+        {
+          "id": "msg_res_1794730706667",
+          "role": "assistant",
+          "text": "I understand. Let's explore that together. Would you like a brief explanation, a concrete example, or shall we test it with a short quiz question?",
+          "timestamp": "2026-11-15T08:18:26.667Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794730722387",
+          "role": "user",
+          "text": "What is PPP CN.",
+          "timestamp": "2026-11-15T08:18:42.387Z"
+        },
+        {
+          "id": "msg_res_1794730723710",
+          "role": "assistant",
+          "text": "In Computer Networks, **PPP** stands for **Point-to-Point Protocol**. Think of it as a dedicated, private conversation line between two specific nodes—like a direct phone call between two computers rather than a broadcast to everyone in a room.\n\nIt’s mainly used to establish a direct connection between two routers or a computer and an ISP server, handling things like authentication (making sure you are who you say you are) and error detection.\n\nDoes that analogy make sense, or would you like me to explain how it compares to other protocols like Ethernet?",
+          "timestamp": "2026-11-15T08:18:43.710Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794730784514",
+          "role": "user",
+          "text": "who is the CM of karnataka.",
+          "timestamp": "2026-11-15T08:19:44.514Z"
+        },
+        {
+          "id": "msg_res_1794730790933",
+          "role": "assistant",
+          "text": "I heard your question. Let's continue—what concept or problem shall we focus on next?",
+          "timestamp": "2026-11-15T08:19:50.933Z"
+        },
+        {
+          "id": "msg_1794730803304",
+          "role": "user",
+          "text": "who is the cm of karnataka",
+          "timestamp": "2026-11-15T08:20:03.304Z"
+        },
+        {
+          "id": "msg_res_1794730815707",
+          "role": "assistant",
+          "text": "I understand. Let's explore that together. Would you like a brief explanation, a concrete example, or shall we test it with a short quiz question?",
+          "timestamp": "2026-11-15T08:20:15.707Z",
+          "citations": []
+        }
+      ]
+    },
+    {
+      "id": "conv_1794730723842",
+      "title": "What is PPP CN.",
+      "updatedAt": "2026-11-15T08:18:43.842Z",
+      "messages": [
+        {
+          "id": "greeting_msg",
+          "role": "assistant",
+          "text": "Good afternoon, Abhishek. We were working on DSA yesterday. Would you like to continue?",
+          "timestamp": "2026-11-15T08:17:25.200Z"
+        },
+        {
+          "id": "msg_1794730665162",
+          "role": "user",
+          "text": "give the cmrit college website.",
+          "timestamp": "2026-11-15T08:17:45.162Z"
+        },
+        {
+          "id": "msg_res_1794730670662",
+          "role": "assistant",
+          "text": "Sure, I've displayed the link to the CMRIT official website for you.\n\n[https://www.cmrit.ac.in/](https://www.cmrit.ac.in/)\n\nSince you're prepping for placements, are you looking for the placement statistics there, or should we dive back into some practice—perhaps a quick problem on Binary Trees to build on our last session?",
+          "timestamp": "2026-11-15T08:17:50.662Z",
+          "citations": [],
+          "visualContent": {
+            "type": "link",
+            "title": "Official Web Portal",
+            "url": "https://www.cmrit.ac.in/](https://www.cmrit.ac.in/",
+            "urlLabel": "Open Official Portal"
+          }
+        },
+        {
+          "id": "msg_1794730694486",
+          "role": "user",
+          "text": "what is PPP in CN.",
+          "timestamp": "2026-11-15T08:18:14.486Z"
+        },
+        {
+          "id": "msg_res_1794730706667",
+          "role": "assistant",
+          "text": "I understand. Let's explore that together. Would you like a brief explanation, a concrete example, or shall we test it with a short quiz question?",
+          "timestamp": "2026-11-15T08:18:26.667Z",
+          "citations": []
+        },
+        {
+          "id": "msg_1794730722387",
+          "role": "user",
+          "text": "What is PPP CN.",
+          "timestamp": "2026-11-15T08:18:42.387Z"
+        },
+        {
+          "id": "msg_res_1794730723710",
+          "role": "assistant",
+          "text": "In Computer Networks, **PPP** stands for **Point-to-Point Protocol**. Think of it as a dedicated, private conversation line between two specific nodes—like a direct phone call between two computers rather than a broadcast to everyone in a room.\n\nIt’s mainly used to establish a direct connection between two routers or a computer and an ISP server, handling things like authentication (making sure you are who you say you are) and error detection.\n\nDoes that analogy make sense, or would you like me to explain how it compares to other protocols like Ethernet?",
+          "timestamp": "2026-11-15T08:18:43.710Z",
+          "citations": []
+        }
+      ]
+    },
+    {
+      "id": "conv_1794730706778",
+      "title": "what is PPP in CN.",
+      "updatedAt": "2026-11-15T08:18:26.778Z",
+      "messages": [
+        {
+          "id": "greeting_msg",
+          "role": "assistant",
+          "text": "Good afternoon, Abhishek. We were working on DSA yesterday. Would you like to continue?",
+          "timestamp": "2026-11-15T08:17:25.200Z"
+        },
+        {
+          "id": "msg_1794730665162",
+          "role": "user",
+          "text": "give the cmrit college website.",
+          "timestamp": "2026-11-15T08:17:45.162Z"
+        },
+        {
+          "id": "msg_res_1794730670662",
+          "role": "assistant",
+          "text": "Sure, I've displayed the link to the CMRIT official website for you.\n\n[https://www.cmrit.ac.in/](https://www.cmrit.ac.in/)\n\nSince you're prepping for placements, are you looking for the placement statistics there, or should we dive back into some practice—perhaps a quick problem on Binary Trees to build on our last session?",
+          "timestamp": "2026-11-15T08:17:50.662Z",
+          "citations": [],
+          "visualContent": {
+            "type": "link",
+            "title": "Official Web Portal",
+            "url": "https://www.cmrit.ac.in/](https://www.cmrit.ac.in/",
+            "urlLabel": "Open Official Portal"
+          }
+        },
+        {
+          "id": "msg_1794730694486",
+          "role": "user",
+          "text": "what is PPP in CN.",
+          "timestamp": "2026-11-15T08:18:14.486Z"
+        },
+        {
+          "id": "msg_res_1794730706667",
+          "role": "assistant",
+          "text": "I understand. Let's explore that together. Would you like a brief explanation, a concrete example, or shall we test it with a short quiz question?",
+          "timestamp": "2026-11-15T08:18:26.667Z",
+          "citations": []
+        }
+      ]
+    },
+    {
+      "id": "conv_1794730670774",
+      "title": "give the cmrit college website.",
+      "updatedAt": "2026-11-15T08:17:50.774Z",
+      "messages": [
+        {
+          "id": "greeting_msg",
+          "role": "assistant",
+          "text": "Good afternoon, Abhishek. We were working on DSA yesterday. Would you like to continue?",
+          "timestamp": "2026-11-15T08:17:25.200Z"
+        },
+        {
+          "id": "msg_1794730665162",
+          "role": "user",
+          "text": "give the cmrit college website.",
+          "timestamp": "2026-11-15T08:17:45.162Z"
+        },
+        {
+          "id": "msg_res_1794730670662",
+          "role": "assistant",
+          "text": "Sure, I've displayed the link to the CMRIT official website for you.\n\n[https://www.cmrit.ac.in/](https://www.cmrit.ac.in/)\n\nSince you're prepping for placements, are you looking for the placement statistics there, or should we dive back into some practice—perhaps a quick problem on Binary Trees to build on our last session?",
+          "timestamp": "2026-11-15T08:17:50.662Z",
+          "citations": [],
+          "visualContent": {
+            "type": "link",
+            "title": "Official Web Portal",
+            "url": "https://www.cmrit.ac.in/](https://www.cmrit.ac.in/",
+            "urlLabel": "Open Official Portal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "conv_yesterday",
+      "title": "DSA Revision — Binary Trees & Traversal",
+      "updatedAt": "2026-11-14T08:17:02.348Z",
+      "messages": [
+        {
+          "id": "msg_1",
+          "role": "assistant",
+          "text": "Good afternoon, Abhishek. Ready for our DSA revision?",
+          "timestamp": "2026-11-14T08:17:02.348Z"
+        },
+        {
+          "id": "msg_2",
+          "role": "user",
+          "text": "Yes, let us focus on Binary Trees today.",
+          "timestamp": "2026-11-14T08:17:32.348Z"
+        },
+        {
+          "id": "msg_3",
+          "role": "assistant",
+          "text": "Great. We reviewed root, children, and started traversal order. Let us continue soon.",
+          "timestamp": "2026-11-14T08:18:02.348Z"
+        }
+      ]
+    }
+  ]
+}
