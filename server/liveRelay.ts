@@ -1,7 +1,7 @@
 import { Server } from 'http';
 import { WebSocketServer, WebSocket } from 'ws';
 import { GoogleGenAI, Modality, Type, type LiveServerMessage } from '@google/genai';
-import { getGeminiClient } from './gemini.ts';
+import { getGeminiClient, generateGeminiImage } from './gemini.ts';
 import { storage } from './storage.ts';
 
 export function setupLiveRelay(server: Server) {
@@ -88,6 +88,7 @@ Key conversation guidelines:
    - Never speak raw LaTeX syntax, backslashes, or code tokens aloud.
    - Concurrently invoke displayVisualContent with type: 'math', title, mathProblem, mathSteps, and finalAnswer, presenting the clean step-by-step solution on screen.
 5. You have native tool calls to interact directly with the application:
+   - generateImage: generate an image, picture, or visual illustration when the user asks to generate, create, or draw an image
    - displayVisualContent: display math, code, link, command, table, steps, or list visually on the screen
    - navigateToTab: to switch to 'assistant', 'learning', 'memory', 'notes', or 'history'
    - createNote: to save a study note
@@ -95,12 +96,24 @@ Key conversation guidelines:
    - startRevisionTopic: to begin practicing a specific topic
    - clearConversation: to clear the conversation display
    Execute the appropriate tool immediately when ${userName} asks for these actions, then confirm briefly in your voice response.
-5. CRITICAL: Never say "I am Gemini", "I am Google", "Powered by Google", or reveal backend AI provider names. If asked who you are, say: "I'm AURA, your personal voice companion and study assistant."`;
+6. CRITICAL: Never say "I am Gemini", "I am Google", "Powered by Google", or reveal backend AI provider names. If asked who you are, say: "I'm AURA, your personal voice companion and study assistant."`;
 
       // 2. Define tools for live interaction
       const tools = [
         {
           functionDeclarations: [
+            {
+              name: 'generateImage',
+              description: 'Generate an image or illustration from a descriptive text prompt and display it in the application interface whenever the user asks to generate, create, draw, or show a generated image or picture.',
+              parameters: {
+                type: Type.OBJECT,
+                properties: {
+                  prompt: { type: Type.STRING, description: 'Detailed visual description of the image to generate' },
+                  title: { type: Type.STRING, description: 'Short display title for the generated image' },
+                },
+                required: ['prompt'],
+              },
+            },
             {
               name: 'displayVisualContent',
               description: 'Display visual companion content (code blocks, clickable website/portal links, terminal commands, comparison tables, step-by-step guides, or structured lists) in the application interface when content needs to be read, copied, clicked, or viewed.',
@@ -321,6 +334,39 @@ Key conversation guidelines:
               for (const fc of toolCall.functionCalls) {
                 const { name, args, id } = fc;
                 let responseOutput: any = { success: true };
+
+                if (name === 'generateImage') {
+                  const imgPrompt = String(args?.prompt || '').trim();
+                  const imgTitle = args?.title || (imgPrompt.length > 35 ? imgPrompt.slice(0, 35) + '...' : imgPrompt) || 'Generated Image';
+                  safeSend({
+                    type: 'tool_call',
+                    name: 'generateImage',
+                    args: { prompt: imgPrompt, title: imgTitle, status: 'generating' },
+                    id,
+                  });
+                  const imgResult = await generateGeminiImage(imgPrompt);
+                  safeSend({
+                    type: 'tool_call',
+                    name: 'generateImage',
+                    args: {
+                      prompt: imgPrompt,
+                      title: imgTitle,
+                      status: imgResult.success ? 'completed' : 'failed',
+                      imageUrl: imgResult.imageUrl,
+                      error: imgResult.error,
+                    },
+                    id,
+                  });
+                  responseOutput = imgResult.success
+                    ? { success: true, displayed: true, title: imgTitle }
+                    : { success: false, error: imgResult.error || 'Failed to generate image' };
+                  functionResponses.push({
+                    name,
+                    id,
+                    response: { result: responseOutput },
+                  });
+                  continue;
+                }
 
                 // Execute server-side actions where relevant
                 if (name === 'displayVisualContent') {

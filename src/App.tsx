@@ -150,6 +150,62 @@ export default function App() {
           },
         ];
       });
+    } else if (name === 'generateImage' && args) {
+      const visualData: VisualContentData = {
+        type: 'image',
+        title: args.title || 'Generated Image',
+        prompt: args.prompt || '',
+        imageUrl: args.imageUrl,
+        status: args.status || (args.imageUrl ? 'completed' : 'generating'),
+        error: args.error,
+      };
+      setMessages((prev) => {
+        let idx = liveAssistantMsgIdRef.current
+          ? prev.findIndex((m) => m.id === liveAssistantMsgIdRef.current)
+          : -1;
+        if (idx === -1) {
+          for (let i = prev.length - 1; i >= 0; i--) {
+            if (prev[i].role === 'assistant' && prev[i].visualContent?.type === 'image' && prev[i].visualContent?.status === 'generating') {
+              idx = i;
+              break;
+            }
+          }
+        }
+        if (idx !== -1) {
+          liveAssistantMsgIdRef.current = prev[idx].id;
+          const updated = [...prev];
+          const prevText = updated[idx].text;
+          const isPlaceholder = prevText === 'Generating image...' || prevText === "Sure, I'll generate that.";
+          updated[idx] = {
+            ...updated[idx],
+            text:
+              args.status === 'failed'
+                ? "I couldn't generate the image right now."
+                : args.status === 'completed' && (!prevText || isPlaceholder)
+                ? "I've generated the image and displayed it on screen."
+                : prevText,
+            visualContent: visualData,
+          };
+          return updated;
+        }
+        const newMsgId = 'msg_live_img_' + Date.now();
+        liveAssistantMsgIdRef.current = newMsgId;
+        return [
+          ...prev,
+          {
+            id: newMsgId,
+            role: 'assistant',
+            text:
+              args.status === 'completed'
+                ? "I've generated the image and displayed it on screen."
+                : args.status === 'failed'
+                ? "I couldn't generate the image right now."
+                : 'Generating image...',
+            timestamp: new Date().toISOString(),
+            visualContent: visualData,
+          },
+        ];
+      });
     } else if (name === 'navigateToTab' && args?.tab) {
       setCurrentTab(args.tab);
     } else if (name === 'createNote' && args?.title && args?.content) {
@@ -198,11 +254,19 @@ export default function App() {
       const idx = targetId ? prev.findIndex((m) => m.id === targetId) : -1;
       if (idx !== -1) {
         const existing = prev[idx];
+        const isImagePlaceholder =
+          existing.visualContent?.type === 'image' &&
+          (existing.text === 'Generating image...' ||
+            existing.text === "Sure, I'll generate that." ||
+            existing.text === "I've generated the image and displayed it on screen.");
+        const baseText = isImagePlaceholder ? '' : existing.text;
         const needsSpace =
-          existing.text.length > 0 &&
-          !/\s$/.test(existing.text) &&
+          baseText.length > 0 &&
+          !/\s$/.test(baseText) &&
           !/^[\s.,!?;:'")\]}]/.test(text);
-        const fullText = `${existing.text}${needsSpace ? ' ' : ''}${text}`;
+        const fullText = baseText
+          ? `${baseText}${needsSpace ? ' ' : ''}${text}`
+          : text.trimStart();
         const extracted = !existing.visualContent ? extractVisualContentFromText(fullText).visualContent : existing.visualContent;
         const updated = [...prev];
         updated[idx] = {

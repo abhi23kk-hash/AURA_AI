@@ -90,11 +90,118 @@ export function isDemoMode(): boolean {
   return !apiKey || apiKey === 'MY_GEMINI_API_KEY';
 }
 
+function detectImageMimeTypeFromBuffer(buf: Buffer, fallbackMime = 'image/png'): string {
+  if (buf.length >= 4 && buf[0] === 0x89 && buf[1] === 0x50 && buf[2] === 0x4e && buf[3] === 0x47) {
+    return 'image/png';
+  }
+  if (buf.length >= 3 && buf[0] === 0xff && buf[1] === 0xd8 && buf[2] === 0xff) {
+    return 'image/jpeg';
+  }
+  if (buf.length >= 12 && buf.slice(0, 4).toString('ascii') === 'RIFF' && buf.slice(8, 12).toString('ascii') === 'WEBP') {
+    return 'image/webp';
+  }
+  return fallbackMime;
+}
+
+async function generateCloudflareImage(cleanPrompt: string): Promise<{
+  success: boolean;
+  imageUrl?: string;
+  mimeType?: string;
+  error?: string;
+}> {
+  const accountId = (process.env.CLOUDFLARE_ACCOUNT_ID || '').trim();
+  const apiToken = (process.env.CLOUDFLARE_API_TOKEN || '').trim();
+  if (!accountId || !apiToken) {
+    return {
+      success: false,
+      error: 'Cloudflare Workers AI credentials are not configured.',
+    };
+  }
+
+  const cfModels = [
+    '@cf/black-forest-labs/flux-1-schnell',
+    '@cf/stabilityai/stable-diffusion-xl-base-1.0',
+  ];
+  let lastCfError = '';
+
+  for (const cfModel of cfModels) {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 30000);
+    try {
+      console.log(`[AURA ImageGen] Calling Cloudflare Workers AI (${cfModel}) with prompt: "${cleanPrompt}"`);
+      const bodyPayload: any = { prompt: cleanPrompt };
+      if (cfModel.includes('flux')) {
+        bodyPayload.steps = 4;
+      }
+
+      const res = await fetch(
+        `https://api.cloudflare.com/client/v4/accounts/${encodeURIComponent(accountId)}/ai/run/${cfModel}`,
+        {
+          method: 'POST',
+          headers: {
+            Authorization: `Bearer ${apiToken}`,
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(bodyPayload),
+          signal: controller.signal,
+        }
+      );
+
+      const contentType = (res.headers.get('content-type') || '').toLowerCase();
+
+      if (!res.ok) {
+        const errText = await res.text().catch(() => '');
+        let parsedErr = errText;
+        try {
+          const parsed = JSON.parse(errText);
+          parsedErr = parsed?.errors?.[0]?.message || parsed?.message || errText;
+        } catch {}
+        lastCfError = `Cloudflare (${res.status}): ${String(parsedErr).slice(0, 180)}`;
+        console.warn(`[AURA ImageGen] Notice from ${cfModel}:`, lastCfError);
+        continue;
+      }
+
+      if (contentType.includes('application/json')) {
+        const data: any = await res.json();
+        const rawBase64 = data?.result?.image;
+        if (rawBase64 && typeof rawBase64 === 'string' && rawBase64.length >= 50) {
+          const buffer = Buffer.from(rawBase64, 'base64');
+          const mimeType = detectImageMimeTypeFromBuffer(buffer, 'image/jpeg');
+          const imageUrl = `data:${mimeType};base64,${rawBase64}`;
+          console.log(`[AURA ImageGen] Successfully generated image via ${cfModel}, Size: ${buffer.length} bytes`);
+          return { success: true, imageUrl, mimeType };
+        }
+        lastCfError = data?.errors?.[0]?.message || 'No image returned from Cloudflare Workers AI';
+      } else {
+        const arrBuf = await res.arrayBuffer();
+        const buffer = Buffer.from(arrBuf);
+        if (buffer.length >= 100) {
+          const fallbackMime = contentType.startsWith('image/') ? contentType.split(';')[0].trim() : 'image/png';
+          const mimeType = detectImageMimeTypeFromBuffer(buffer, fallbackMime);
+          const imageUrl = `data:${mimeType};base64,${buffer.toString('base64')}`;
+          console.log(`[AURA ImageGen] Successfully generated image via ${cfModel}, Size: ${buffer.length} bytes`);
+          return { success: true, imageUrl, mimeType };
+        }
+        lastCfError = 'Empty image buffer returned from Cloudflare Workers AI';
+      }
+    } catch (err: any) {
+      lastCfError = err?.name === 'AbortError' ? 'Cloudflare image request timed out' : String(err?.message || err);
+      console.warn(`[AURA ImageGen] Notice from ${cfModel}:`, lastCfError);
+    } finally {
+      clearTimeout(timeout);
+    }
+  }
+
+  return {
+    success: false,
+    error: lastCfError || 'Failed to generate image from Cloudflare Workers AI',
+  };
+}
+
 /**
- * Image Generation with Google's supported Gemini image models
- * Primary: gemini-3.1-flash-image
- * Fallback: gemini-3.1-flash-lite-image
- * Decodes returned inlineData and creates a browser-displayable data URL.
+ * Image Generation with Gemini image models and automatic Cloudflare Workers AI fallback
+ * Primary: gemini-3.1-flash-image -> gemini-3.1-flash-lite-image
+ * Fallback: Cloudflare Workers AI (@cf/black-forest-labs/flux-1-schnell)
  */
 export async function generateGeminiImage(
   prompt: string,
@@ -106,14 +213,6 @@ export async function generateGeminiImage(
   error?: string;
   details?: any;
 }> {
-  const ai = getGeminiClient();
-  if (!ai) {
-    return {
-      success: false,
-      error: 'Gemini client is not initialized. Please ensure GEMINI_API_KEY is configured.',
-    };
-  }
-
   const cleanPrompt = (prompt || '').trim();
   if (!cleanPrompt) {
     return {
@@ -122,82 +221,101 @@ export async function generateGeminiImage(
     };
   }
 
+  const ai = getGeminiClient();
   const aspectRatio = options?.aspectRatio || '1:1';
   const imageSize = options?.imageSize || '1K';
-
-  // Supported Gemini image models
-  const modelsToAttempt = ['gemini-3.1-flash-image', 'gemini-3.1-flash-lite-image'];
   let lastError = '';
 
-  for (const modelName of modelsToAttempt) {
-    try {
-      console.log(`[AURA ImageGen] Calling ${modelName} with prompt: "${cleanPrompt}"`);
-      const config: any = {
-        imageConfig: {
-          aspectRatio,
-        },
-      };
-      if (modelName === 'gemini-3.1-flash-image') {
-        config.imageConfig.imageSize = imageSize;
-      }
+  if (ai) {
+    // Supported Gemini image models
+    const modelsToAttempt = ['gemini-3.1-flash-image', 'gemini-3.1-flash-lite-image'];
 
-      const response = await ai.models.generateContent({
-        model: modelName,
-        contents: {
-          parts: [{ text: cleanPrompt }],
-        },
-        config,
-      });
-
-      const candidates = response.candidates || [];
-      if (!candidates.length) {
-        lastError = 'No candidates returned from Gemini API';
-        continue;
-      }
-
-      const parts = candidates[0]?.content?.parts || [];
-      for (const part of parts) {
-        if (part.inlineData && part.inlineData.data) {
-          const rawBase64 = part.inlineData.data;
-          const mimeType = part.inlineData.mimeType || 'image/png';
-
-          // Critical API-response debugging: verify valid bytes
-          if (!rawBase64 || typeof rawBase64 !== 'string' || rawBase64.length < 50) {
-            console.warn('[AURA ImageGen] Received invalid or empty base64 string');
-            continue;
-          }
-
-          const buffer = Buffer.from(rawBase64, 'base64');
-          if (buffer.length < 100) {
-            console.warn('[AURA ImageGen] Decoded image buffer too small (< 100 bytes)');
-            continue;
-          }
-
-          const imageUrl = `data:${mimeType};base64,${rawBase64}`;
-          console.log(`[AURA ImageGen] Successfully generated image! Model: ${modelName}, Size: ${buffer.length} bytes`);
-
-          return {
-            success: true,
-            imageUrl,
-            mimeType,
-          };
+    for (const modelName of modelsToAttempt) {
+      if (isModelInCooldown(modelName)) continue;
+      try {
+        console.log(`[AURA ImageGen] Calling ${modelName} with prompt: "${cleanPrompt}"`);
+        const config: any = {
+          imageConfig: {
+            aspectRatio,
+          },
+        };
+        if (modelName === 'gemini-3.1-flash-image') {
+          config.imageConfig.imageSize = imageSize;
         }
-      }
 
-      lastError = 'No image inlineData found in response candidate parts';
-    } catch (err: any) {
-      console.warn(`[AURA ImageGen] Notice from ${modelName}:`, summarizeGeminiError(err));
-      let msg = err?.message || String(err);
-      if (msg.includes('429') || msg.includes('Quota exceeded') || msg.includes('RESOURCE_EXHAUSTED')) {
-        msg = 'Quota exceeded: Free tier limit is 0 for Gemini image models. A billing-enabled API key is required.';
+        const response = await ai.models.generateContent({
+          model: modelName,
+          contents: {
+            parts: [{ text: cleanPrompt }],
+          },
+          config,
+        });
+
+        const candidates = response.candidates || [];
+        if (!candidates.length) {
+          lastError = 'No candidates returned from Gemini API';
+          continue;
+        }
+
+        const parts = candidates[0]?.content?.parts || [];
+        for (const part of parts) {
+          if (part.inlineData && part.inlineData.data) {
+            const rawBase64 = part.inlineData.data;
+            const mimeType = part.inlineData.mimeType || 'image/png';
+
+            if (!rawBase64 || typeof rawBase64 !== 'string' || rawBase64.length < 50) {
+              console.warn('[AURA ImageGen] Received invalid or empty base64 string');
+              continue;
+            }
+
+            const buffer = Buffer.from(rawBase64, 'base64');
+            if (buffer.length < 100) {
+              console.warn('[AURA ImageGen] Decoded image buffer too small (< 100 bytes)');
+              continue;
+            }
+
+            const imageUrl = `data:${mimeType};base64,${rawBase64}`;
+            console.log(`[AURA ImageGen] Successfully generated image! Model: ${modelName}, Size: ${buffer.length} bytes`);
+
+            return {
+              success: true,
+              imageUrl,
+              mimeType,
+            };
+          }
+        }
+
+        lastError = 'No image inlineData found in response candidate parts';
+      } catch (err: any) {
+        markModelQuotaCooldown(modelName, err);
+        console.warn(`[AURA ImageGen] Notice from ${modelName}:`, summarizeGeminiError(err));
+        let msg = err?.message || String(err);
+        if (msg.includes('429') || msg.includes('Quota exceeded') || msg.includes('RESOURCE_EXHAUSTED')) {
+          msg = 'Quota exceeded: Free tier limit is 0 for Gemini image models.';
+        }
+        lastError = msg;
       }
-      lastError = msg;
     }
+  } else {
+    lastError = 'Gemini client is not initialized.';
+  }
+
+  // Automatic fallback to Cloudflare Workers AI when configured
+  const hasCfCreds = Boolean(
+    (process.env.CLOUDFLARE_ACCOUNT_ID || '').trim() &&
+    (process.env.CLOUDFLARE_API_TOKEN || '').trim()
+  );
+  if (hasCfCreds) {
+    const cfResult = await generateCloudflareImage(cleanPrompt);
+    if (cfResult.success && cfResult.imageUrl) {
+      return cfResult;
+    }
+    lastError = cfResult.error || lastError;
   }
 
   return {
     success: false,
-    error: lastError || 'Failed to generate image from Gemini model',
+    error: lastError || 'Failed to generate image',
   };
 }
 
